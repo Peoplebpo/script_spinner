@@ -16,25 +16,299 @@
 <div class="container-fluid my-2">
 	<div class="row border border-secondary mx-0 shadow-sm py-3 bg-warning">
 
-	<a href="javascript:mostrar();"><button type="button" class="btn_script btn btn-danger btn-xs text-white my-2"> Mostrar </button></a>
+	<a href="javascript:c_llamada();"><button type="button" class="btn_script btn btn-danger btn-xs text-white my-2"> Cerrar Llamada </button></a>
 
 	<div class="row border border-secondary mx-0 shadow-sm py-3 bg-secondary">
 
-	<div class="col-12">ESTE DIV NO CAMBIA</div>
+<!--INICIO DIV PERMANENTE -->
+	<div class="col">
+		<label>Nombre Cliente</label>
+		<input type="name" name="nombre_cliente" class="form-control my-2">
+
+	</div>
+
+	<div class="col">
+
+		<label>Rut Cliente</label>
+		<input type="name" name="nombre_cliente" class="form-control my-2">
+
+	</div>
+
+	<div class="col">
+		<label>Teléfono</label>
+		<input type="name" name="nombre_cliente" class="form-control my-2">
+
+	</div>
+
+	<div class="col">
+		<label>Prioriza Equipo</label>
+		<input type="name" name="nombre_cliente" class="form-control my-2">
+
+	</div>
+<!--FIN DIV PERMANENTE -->
 	</div>
 
 	<div class="row border border-secondary mx-0 shadow-sm py-3 bg-info">
 
-	<div class="col-12" id="inicial">
-     div principal
-	</div>
+<!-- PANTALLA INICIO -->
 
+		<div class="col-12" id="inicial">
+			<h4>texto entrada</h4>
+		</div>
+
+		<div class="col-6" id="inicial1">
+			<label>Tipo Cliente</label>
+			<select name="nombre_cliente" class="form-select my-2">
+				<option>opcion1</option>
+				<option>opcion2</option>
+			</select> 
+
+		</div>
+
+		<div class="col-3" id="inicial2">
+
+			<label>Tipo Cliente</label>
+			<input type="name" name="nombre_cliente" class="form-control my-2">
+
+			<label>Tipo Cliente</label>
+			<input type="name" name="nombre_cliente" class="form-control my-2">
+
+			<label>Tipo Cliente</label>
+			<input type="name" name="nombre_cliente" class="form-control my-2">
+
+		</div>
+
+		<div class="col-3" id="inicial3">
+
+			<label>Tipo Cliente</label>
+			<input type="name" name="nombre_cliente" class="form-control my-2">
+
+			<label>Tipo Cliente</label>
+			<input type="name" name="nombre_cliente" class="form-control my-2">
+
+		</div>
+
+		<div class="col-12" id="inicial4">
+
+		<a href="javascript:venta();"><button type="button" class="btn_script btn btn-primary btn-xs text-white my-2">Venta</button></a>  
+
+		</div>
+		
+<!-- FIN PANTALLA INICIO -->
+
+<!-- PANTALLA VENTA -->
 	
-	<div class="col-12" id="flotante" style="display:none;">
-    <a href="javascript:cerrar();"><button type="button" class="btn_script btn btn-secondary btn-xs text-white my-2">Inicio</button></a>
-     Este es un div ocultar
+	<div class="col-12" id="venta" style="display:none;">
+
+    <label>
+    <input type="radio" name="" value=""> Solo Descuento
+	</label>
+
+	<label>
+    <input type="radio" name="" value=""> Herramienta Combinada
+	</label>
+
+	<label>Descuento</label>
+		<select name="" class="form-select my-2">
+			<option>opcion1</option>
+			<option>opcion2</option>
+		</select> 
+
+    </div>
+
+    <div class="col-3" id="venta1" style="display:none;">
+
+    	<label>Plan Aceptado</label>
+		<select name="" class="form-select my-2">
+			<option>opcion1</option>
+			<option>opcion2</option>
+		</select> 
+
+		<label>Fecha Retiro</label>
+		<select name="" class="form-select my-2">
+			<option>opcion1</option>
+			<option>opcion2</option>
+		</select> 
+
+    </div>
+
+    <div class="col-3" id="venta2" style="display:none;">
+    	
+    	<label>Descuento Aceptado</label>
+		<select name="" class="form-select my-2">
+			<option>opcion1</option>
+			<option>opcion2</option>
+		</select> 
+
+		<label>Sucursales</label>
+		<select name="" class="form-select my-2">
+			<option>opcion1</option>
+			<option>opcion2</option>
+		</select> 
+
+    </div>
+ 
+    <div class="col-3" id="venta3" style="display:none;">
+    	
+    	<label>Equipo Aceptado</label>
+		<select name="" class="form-select my-2">
+			<option>opcion1</option>
+			<option>opcion2</option>
+		</select> 
+
+		<label>Numero de Interacción ONE Línea Principal</label>
+		<input type="name" name="" class="form-control my-2">
+
+    </div>
+
+    <div class="col-3" id="venta4" style="display:none;">
+    	
+    	<label>Bolsa Aceptada</label>
+		<select name="" class="form-select my-2">
+			<option>opcion1</option>
+			<option>opcion2</option>
+		</select> 
+    </div>
+
+    <div class="col-12" id="venta5" style="display:none;">
+
+     <a href="javascript:inicio();"><button type="button" class="btn_script btn btn-secondary btn-xs text-white my-2">Inicio</button></a>
+
+     <a href="javascript:l_adicional();"><button type="button" class="btn_script btn btn-danger btn-xs text-white my-2">Lineas Adicionales</button></a>
+
+     <a href="javascript:i_siempre();"><button type="button" class="btn_script btn btn-primary btn-xs text-white my-2">Informar Siempre</button></a>
+
 	</div>
 
+<!-- FIN PANTALLA VENTA -->
+
+<!-- PANTALLA LINEAS ADICIONALES -->
+
+	<div class="col-12" id="l_adicional" style="display:none;">
+  
+     DIV LINEAS ADICIONALES
+
+     <a href="javascript:venta();"><button type="button" class="btn_script btn btn-secondary btn-xs text-white my-2">Venta</button></a>
+	</div>
+
+<!--FIN PANTALLA LINEAS ADICIONALES -->
+
+<!--PANTALLA INFORMAR SIEMPRE -->
+
+	<div class="col-12" id="i_siempre" style="display:none;">
+
+     DIV INFORMAR SIEMPRE
+
+     <a href="javascript:venta();"><button type="button" class="btn_script btn btn-secondary btn-xs text-white my-2">Venta</button></a>
+
+     <a href="javascript:i_relevante();"><button type="button" class="btn_script btn btn-primary btn-xs text-white my-2">Informacion Relevante</button></a>
+
+	</div>
+<!--FIN PANTALLA INFORMAR SIEMPRE -->
+
+<!--PANTALLA INFORMAR RELEVANTE -->
+
+	<div class="col-12" id="i_relevante" style="display:none;">
+
+     DIV INFORMACION RELEVANTE
+
+	<a href="javascript:i_siempre();"><button type="button" class="btn_script btn btn-secondary btn-xs text-white my-2">Informar Siempre</button></a>
+
+	<a href="javascript:cierre_venta();"><button type="button" class="btn_script btn btn-primary btn-xs text-white my-2">Cierre Venta</button></a>
+
+	</div>
+
+<!--FIN PANTALLA INFORMAR RELEVANTE -->
+
+<!--PANTALLA CIERRE VENTA -->
+
+	<div class="col-6" id="cierre_venta" style="display:none;">
+
+ 	<label>Seleccione un tipo de venta</label>
+	<select name="" class="form-select my-2">
+		<option>opcion1</option>
+		<option>opcion2</option>
+	</select> 
+
+
+    </div>
+
+    <div class="col-3" id="cierre_venta1" style="display:none;">
+
+    <label>Email</label>
+	<select name="" class="form-select my-2">
+		<option>opcion1</option>
+		<option>opcion2</option>
+	</select> 
+
+    </div>
+
+    <div class="col-3" id="cierre_venta2" style="display:none;">
+
+    <label>Correo Electronico</label>
+    <input type="name" name="" class="form-control my-2">	
+
+    </div>
+
+
+    <div class="col-12" id="cierre_venta3" style="display:none;">
+
+     <a href="javascript:i_relevante();"><button type="button" class="btn_script btn btn-secondary btn-xs text-white my-2">Informacion Relevante</button></a>
+
+     <button type="button" class="btn_script btn btn-success btn-xs text-white my-2">Finalizar</button>
+
+	</div>
+
+<!--FIN PANTALLA CIERRE VENTA -->
+
+<!--PANTALLA CERRAR LLAMADA -->
+
+	<div class="col-3" id="c_llamada" style="display:none;">
+
+    <label>Estado</label>
+	<select name="" class="form-select my-2">
+		<option>opcion1</option>
+		<option>opcion2</option>
+	</select>
+
+	<label>Telefono Rellamada</label>
+    <input type="name" name="" class="form-control my-2"> 
+
+    </div>
+
+    <div class="col-3" id="c_llamada1" style="display:none;">
+
+    <label>Tipificacion</label>
+	<select name="" class="form-select my-2">
+		<option>opcion1</option>
+		<option>opcion2</option>
+	</select> 
+
+    </div>
+
+    <div class="col-3" id="c_llamada2" style="display:none;">
+
+    <label>Fecha Rellamada</label>
+	<input type="date" name="" class="form-control my-2">
+
+    </div>
+
+    <div class="col-3" id="c_llamada3" style="display:none;">
+
+    <label>Hora Rellamada</label>
+	<input type="time" name="" class="form-control my-2">
+
+    </div>
+
+    <div class="col-12" id="c_llamada4" style="display:none;">
+
+     <a href="javascript:inicio();"><button type="button" class="btn_script btn btn-secondary btn-xs text-white my-2">Inicio</button></a>
+
+     <button type="button" class="btn_script btn btn-success btn-xs text-white my-2">Finalizar</button>
+
+	</div>
+
+<!--FIN PANTALLA CERRAR LLAMADA -->
 	</div>
 
 	</div>
