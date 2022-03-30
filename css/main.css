@@ -1,7 +1,3 @@
-#venta{
-	display: none;
-}
-
-#venta4{
-	display: none;
+input[type="name"]:disabled {
+  background: #A1F517;
 }
