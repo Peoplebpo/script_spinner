@@ -1,113 +1,121 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title></title>
 	<meta charset="UTF-8">
-	
+
 	<link rel="stylesheet" href="lib/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 	<link rel="stylesheet" href="css/main.css">
-	
+
 	<script src="lib/jquery.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script> 
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+		integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous">
+	</script>
 	<script type="lib/popper.min.js"></script>
 	<script src="js/agregar.js"></script>
 	<script src="js/divs.js"></script>
 
 </head>
+
 <body>
-<div class="container-fluid my-2">
-	<div class="row">
+	<div class="container-fluid my-2">
+		<div class="row">
 
-	<div class="col-4">
-	   
-	<div class="input-group mb-3">
-	<button type="button" class="btn_script btn btn-danger btn-xs text-white my-2" onclick="c_llamada();"> Cerrar Llamada </button>
+			<div class="col-2">
+			
+				<button type="button" class="btn_script btn btn-danger btn-xs text-white my-2" onclick="c_llamada();">Cerrar Llamada</button>
+			
+			</div>
 
-  	<input type="text" class="form-control ml-2" placeholder="Ingrese Teléfono" aria-label="Recipient's username" aria-describedby="button-addon2">
-  	<button class="btn btn-outline-secondary" type="button" id="button-addon2">Llamar</button>
-	</div>
 
-	</div>
+			<div class="col-3">
 
-	<div class="col-2">
+				<div class="input-group mt-2">
+					<input type="text" class="form-control" placeholder="Ingrese Teléfono" aria-describedby="button-addon2"><button
+						class="btn btn-outline-secondary" type="button" id="button-addon2">Llamar</button>
+				</div>
 
-  	</div>
+			</div>
 
-  	<div class="col-6">
+			<div class="col-7">
 
-  		<a href="#"><button type="button" class="btn btn-light btn-xs text-dark border border-dark my-2" style="float:right; margin-right: 5px;"> Legrado Cobranza </button></a>
+				<a href="#"><button type="button" class="btn btn-light btn-xs text-dark border border-dark my-2"
+						style="float:right; margin-right: 5px;"> Legrado Cobranza </button></a>
 
-  		<a href="#"><button type="button" class="btn btn-light btn-xs text-dark border border-dark my-2" style="float:right; margin-right: 5px;"> Generador de Glosa </button></a>
-  	</div>
+				<a href="#"><button type="button" class="btn btn-light btn-xs text-dark border border-dark my-2"
+						style="float:right; margin-right: 5px;"> Generador de Glosa </button></a>
+			</div>
 
-  	</div>
-<!--INICIO DIV PERMANENTE -->
-	<?php
+		</div>
+		<!--INICIO DIV PERMANENTE -->
+		<?php
 	 include ('includes/div_permanente.php')
 	?>
-<!--FIN DIV PERMANENTE -->
-	<div class="row border border-secondary mx-0 shadow-sm py-3 bg-light my-2 rounded border">
+		<!--FIN DIV PERMANENTE -->
+		<div class="row border border-secondary mx-0 shadow-sm py-3 bg-light my-2 rounded border">
 
-<!-- PANTALLA INICIO -->
+			<!-- PANTALLA INICIO -->
 
-	<?php
+			<?php
 	 include ('includes/div_inicial.php')
 	?>
-		
-<!-- FIN PANTALLA INICIO -->
 
-<!-- PANTALLA VENTA -->
-	
-	<?php
+			<!-- FIN PANTALLA INICIO -->
+
+			<!-- PANTALLA VENTA -->
+
+			<?php
 	 include ('includes/div_venta.php')
 	?>
 
-<!-- FIN PANTALLA VENTA -->
+			<!-- FIN PANTALLA VENTA -->
 
-<!-- PANTALLA LINEAS ADICIONALES -->
+			<!-- PANTALLA LINEAS ADICIONALES -->
 
-	<?php
+			<?php
 	 include ('includes/div_linea_adicional.php')
 	?>
 
-<!--FIN PANTALLA LINEAS ADICIONALES -->
+			<!--FIN PANTALLA LINEAS ADICIONALES -->
 
-<!--PANTALLA INFORMAR SIEMPRE -->
+			<!--PANTALLA INFORMAR SIEMPRE -->
 
-	<?php
+			<?php
 	 include ('includes/div_info_siempre.php')
 	?>
 
-<!--FIN PANTALLA INFORMAR SIEMPRE -->
+			<!--FIN PANTALLA INFORMAR SIEMPRE -->
 
-<!--PANTALLA INFORMAR RELEVANTE -->
+			<!--PANTALLA INFORMAR RELEVANTE -->
 
-	<?php
+			<?php
 	 include ('includes/div_info_relevante.php')
 	?>
 
-<!--FIN PANTALLA INFORMAR RELEVANTE -->
+			<!--FIN PANTALLA INFORMAR RELEVANTE -->
 
-<!--PANTALLA CIERRE VENTA -->
+			<!--PANTALLA CIERRE VENTA -->
 
-	<?php
+			<?php
 	 include ('includes/div_cierre_venta.php')
 	?>
 
-<!--FIN PANTALLA CIERRE VENTA -->
+			<!--FIN PANTALLA CIERRE VENTA -->
 
-<!--PANTALLA CERRAR LLAMADA -->
+			<!--PANTALLA CERRAR LLAMADA -->
 
-	<?php
+			<?php
 	 include ('includes/div_cerrar_llamada.php')
 	?>
 
-<!--FIN PANTALLA CERRAR LLAMADA -->
-	</div>
+			<!--FIN PANTALLA CERRAR LLAMADA -->
+		</div>
 
-</div>
+	</div>
 
 
 </body>
+
 </html>
