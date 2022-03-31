@@ -21,7 +21,7 @@
 
 	<div class="col-4">
 
-	
+	   
 	<div class="input-group mb-3">
 	<a href="javascript:c_llamada();"><button type="button" class="btn_script btn btn-danger btn-xs text-white my-2"> Cerrar Llamada </button></a>
   <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
