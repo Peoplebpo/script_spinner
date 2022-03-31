@@ -41,6 +41,6 @@
 
 		<div class="col-12" id="inicial4">
 
-		<a href="javascript:venta();"><button type="button" class="btn_script btn btn-primary btn-xs text-white my-2" style="float:right; margin-right: 5px;">Venta</button></a>  
+		<button type="button" class="btn_script btn btn-primary btn-xs text-white my-2" style="float:right; margin-right: 5px;" onclick="venta()">Venta</button> 
 
 		</div>

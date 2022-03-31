@@ -16,8 +16,13 @@
 
 	<label class="fw-bold">Descuento</label>
 		<select name="" class="form-select my-2">
-			<option>opcion1</option>
-			<option>opcion2</option>
+			<option selected>Lista de Descuentos</option>
+            <option value="40% X 6 MESES">30% X 6 MESES</option>
+            <option value="50% X 6 MESES">50% X 6 MESES</option>
+            <option value="20% X 12 MESES">20% X 12 MESES</option>
+            <option value="30% X 12 MESES">30% X 12 MESES</option>
+            <option value="40% X 12 MESES">40% X 12 MESES</option>
+            <option value="50% X 12 MESES">50% X 12 MESES</option>
 		</select>
 
 		<label class="my-3">
@@ -42,8 +47,16 @@
 
     	<label class="fw-bold">Plan Aceptado</label>
 		<select name="" class="form-select my-2">
-			<option>opcion1</option>
-			<option>opcion2</option>
+			<option selected>Lista de Planes</option>
+            <option value="PLAN CUENTA EXACTA XS">PLAN CUENTA EXACTA XS</option>
+            <option value="PLAN CUENTA EXACTA S">PLAN CUENTA EXACTA S</option>
+            <option value="PLAN POSTPAGO MAX Y">PLAN POSTPAGO MAX Y</option>
+            <option value="PLAN POSTPAGO MAX M">PLAN POSTPAGO MAX M</option>
+            <option value="PLAN POSTPAGO MAX L">PLAN POSTPAGO MAX L</option>
+            <option value="PLAN POSTPAGO MAX XL">PLAN POSTPAGO MAX XL</option>
+            <option value="PLAN MAX PREMIUM LIBRE">PLAN MAX PREMIUM LIBRE</option>
+            <option value="PLAN MAX PREMIUM BLACK LIBRE">PLAN MAX PREMIUM BLACK LIBRE</option>
+            <option value="PLAN POSTPAGO MAX X">PLAN POSTPAGO MAX X</option>
 		</select> 
 
 		<label class="fw-bold">Fecha Retiro</label>
@@ -63,9 +76,67 @@
 		</select> 
 
 		<label class="fw-bold">Sucursales</label>
-		<select name="" class="form-select my-2">
-			<option>opcion1</option>
-			<option>opcion2</option>
+		<select name="sucursal" class="form-select my-2">
+			<option selected>Lista de Sucursales</option>
+            <option value="Antofagasta SSCC">Antofagasta SSCC</option>
+            <option value="Calama SSCC">Calama SSCC</option>
+            <option value="Copiapó SSCC">Copiapó SSCC</option>
+            <option value="CPS Vallenar">CPS Vallenar</option>
+            <option value="CPS Coquimbo">CPS Coquimbo</option>
+            <option value="La Serena SSCC">La Serena SSCC</option>
+            <option value="CPS Ovalle">CPS Ovalle</option>
+            <option value="Temuco SSCC">Temuco SSCC</option>
+            <option value="CPS Villarrica">CPS Villarrica</option>
+            <option value="Plaza Oeste SSCC">Plaza Oeste SSCC</option>
+            <option value="CPS Chicureo">CPS Chicureo</option>
+            <option value="Gran Avenida SSCC">Gran Avenida SSCC</option>
+            <option value="Estación Central SSCC">Estación Central SSCC</option>
+            <option value="Plaza Norte SSCC">Plaza Norte SSCC</option>
+            <option value="Florida Center SSCC">Florida Center SSCC</option>
+            <option value="Vespucio II SSCC">Vespucio II SSCC</option>
+            <option value="Vespucio SSCC">Vespucio SSCC</option>
+            <option value="CPS La Reina">CPS La Reina</option>
+            <option value="Apoquindo SSCC">Apoquindo SSCC</option>
+            <option value="CPS APUMANQUE">CPS APUMANQUE</option>
+            <option value="CPS La Dehesa">CPS La Dehesa</option>
+            <option value="Maipú SSCC">Maipú SSCC</option>
+            <option value="CPS Melipilla">CPS Melipilla</option>
+            <option value="Plaza Quilin SSCC">Plaza Quilin SSCC</option>
+            <option value="Costanera Center SSCC">Costanera Center SSCC</option>
+            <option value="Puente Alto SSCC">Puente Alto SSCC</option>
+            <option value="San Bernardo SSCC">San Bernardo SSCC</option>
+            <option value="Estado SSCC">Estado SSCC</option>
+            <option value="Huerfanos SSCC">Huerfanos SSCC</option>
+            <option value="Merced SSCC">Merced SSCC</option>
+            <option value="Santiago Dowtown SSCC">Santiago Dowtown SSCC</option>
+            <option value="San Damian SSCC">San Damian SSCC</option>
+            <option value="La Calera SSCC">La Calera SSCC</option>
+            <option value="CPS Los Andes">CPS Los Andes</option>
+            <option value="CPS Quillota">CPS Quillota</option>
+            <option value="Quilpue SSCC">Quilpue SSCC</option>
+            <option value="San Antonio SSCC">San Antonio SSCC</option>
+            <option value="San Felipe SSCC">San Felipe SSCC</option>
+            <option value="Valparaiso SSCC">Valparaiso SSCC</option>
+            <option value="Viña Del Mar SSCC">Viña Del Mar SSCC</option>
+            <option value="Viña II SSCC">Viña II SSCC</option>
+            <option value="Rancagua SSCC">Rancagua SSCC</option>
+            <option value="CPS San Fernando">CPS San Fernando</option>
+            <option value="Curico SSCC">Curico SSCC</option>
+            <option value="Linares SSCC">Linares SSCC</option>
+            <option value="Talca SSCC">Talca SSCC</option>
+            <option value="Chillan SSCC">Chillan SSCC</option>
+            <option value="Concepción SSCC">Concepción SSCC</option>
+            <option value="El Trebol Concep SSCC">El Trebol Concep SSCC</option>
+            <option value="Plaza Bio Bio SSCC">Plaza Bio Bio SSCC</option>
+            <option value="Los Angeles SSCC">Los Angeles SSCC</option>
+            <option value="Castro SSCC">Castro SSCC</option>
+            <option value="Osorno SSCC">Osorno SSCC</option>
+            <option value="Pto. Montt SSCC">Pto. Montt SSCC</option>
+            <option value="Coyhaique SSCC">Coyhaique SSCC</option>
+            <option value="Punta Arenas SSCC">Punta Arenas SSCC</option>
+            <option value="Valdivia SSCC">Valdivia SSCC</option>
+            <option value="Arica SSCC">Arica SSCC</option>
+            <option value="Iquique SSCC">Iquique SSCC</option> 
 		</select> 
 
     </div>
@@ -94,10 +165,10 @@
 
     <div class="col-12" id="venta5" style="display:none;">
 
-    <a href="javascript:i_siempre();"><button type="button" class="btn_script btn btn-primary btn-xs text-white my-2" style="float:right; margin-right: 5px;">Informar Siempre</button></a>
+    <button type="button" class="btn_script btn btn-primary btn-xs text-white my-2" style="float:right; margin-right: 5px;" onclick="i_siempre();">Informar Siempre</button></a>
 
-    <a href="javascript:l_adicional();"><button type="button" class="btn_script btn btn-danger btn-xs text-white my-2" style="float:right; margin-right: 5px;">Lineas Adicionales</button></a>
+    <button type="button" class="btn_script btn btn-danger btn-xs text-white my-2" style="float:right; margin-right: 5px;" onclick="l_adicional();">Lineas Adicionales</button></a>
 
-    <a href="javascript:inicio();"><button type="button" class="btn_script btn btn-secondary btn-xs text-white my-2" style="float:right; margin-right: 5px;">Inicio</button></a>     
+    <button type="button" class="btn_script btn btn-secondary btn-xs text-white my-2" style="float:right; margin-right: 5px;" onclick="inicio();">Inicio</button>     
 
 	</div>

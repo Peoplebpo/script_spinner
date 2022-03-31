@@ -21,8 +21,8 @@
     <br>
     <label class="my-2">Aceptación con un SI explicito.</label>
 
-	<a href="javascript:i_relevante();"><button type="button" class="btn_script btn btn-primary btn-xs text-white my-2" style="float:right; margin-right: 5px;">Informacion Relevante</button></a>
+	<button type="button" class="btn_script btn btn-primary btn-xs text-white my-2" style="float:right; margin-right: 5px;" onclick="i_relevante();">Informacion Relevante</button></a>
 
-    <a href="javascript:venta();"><button type="button" class="btn_script btn btn-secondary btn-xs text-white my-2" style="float:right; margin-right: 5px;">Venta</button></a>
+    <button type="button" class="btn_script btn btn-secondary btn-xs text-white my-2" style="float:right; margin-right: 5px;" onclick="venta();">Venta</button>
 
 	</div>

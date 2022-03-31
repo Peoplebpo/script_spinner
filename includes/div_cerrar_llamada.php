@@ -39,6 +39,6 @@
 
     <button type="button" class="btn_script btn btn-success btn-xs text-white my-2" style="float:right; margin-right: 5px;">Finalizar</button>
 
-    <a href="javascript:inicio();"><button type="button" class="btn_script btn btn-secondary btn-xs text-white my-2" style="float:right; margin-right: 5px;">Inicio</button></a>
+    <button type="button" class="btn_script btn btn-secondary btn-xs text-white my-2" style="float:right; margin-right: 5px;" onclick="inicio();">Inicio</button>
 
 	</div>

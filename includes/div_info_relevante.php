@@ -14,8 +14,8 @@
     <br>
     <label>Para el uso del Servicio de ROAMING y llamadas a LDI Consultar condiciones comerciales en www.clarochile.cl. (VENEZUELA no está incluido para llamadas de larga distancia internacional)</label>
 
-    <a href="javascript:cierre_venta();"><button type="button" class="btn_script btn btn-primary btn-xs text-white my-2" style="float:right; margin-right: 5px;">Cierre Venta</button></a>
+    <button type="button" class="btn_script btn btn-primary btn-xs text-white my-2" style="float:right; margin-right: 5px;" onclick="cierre_venta();">Cierre Venta</button>
 
-	<a href="javascript:i_siempre();"><button type="button" class="btn_script btn btn-secondary btn-xs text-white my-2" style="float:right; margin-right: 5px;">Informar Siempre</button></a>
+	<button type="button" class="btn_script btn btn-secondary btn-xs text-white my-2" style="float:right; margin-right: 5px;" onclick="i_siempre();">Informar Siempre</button>
 
 	</div>
