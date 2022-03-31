@@ -1,6 +1,6 @@
 <div class="col-6" id="cierre_venta" style="display:none;">
 
- 	<label>Seleccione un tipo de venta</label>
+ 	<label class="fw-bold">Seleccione un tipo de venta</label>
 	<select name="" class="form-select my-2">
 		<option>opcion1</option>
 		<option>opcion2</option>
@@ -11,17 +11,18 @@
 
     <div class="col-3" id="cierre_venta1" style="display:none;">
 
-    <label>Email</label>
+    <label class="fw-bold">Email</label>
 	<select name="" class="form-select my-2">
-		<option>opcion1</option>
-		<option>opcion2</option>
+		<option>Eliga una opción</option>
+		<option value="Si">Si</option>
+        <option value="No">No</option>
 	</select> 
 
     </div>
 
     <div class="col-3" id="cierre_venta2" style="display:none;">
 
-    <label>Correo Electronico</label>
+    <label class="fw-bold">Correo Electronico</label>
     <input type="name" name="" class="form-control my-2">	
 
     </div>

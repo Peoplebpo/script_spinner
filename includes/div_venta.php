@@ -16,13 +16,9 @@
 
 	<label class="fw-bold">Descuento</label>
 		<select name="" class="form-select my-2">
-			<option selected>Lista de Descuentos</option>
-            <option value="40% X 6 MESES">30% X 6 MESES</option>
-            <option value="50% X 6 MESES">50% X 6 MESES</option>
-            <option value="20% X 12 MESES">20% X 12 MESES</option>
-            <option value="30% X 12 MESES">30% X 12 MESES</option>
-            <option value="40% X 12 MESES">40% X 12 MESES</option>
-            <option value="50% X 12 MESES">50% X 12 MESES</option>
+			<option></option>
+            <option value="Si">Si</option>
+            <option value="No">No</option>
 		</select>
 
 		<label class="my-3">
@@ -60,10 +56,7 @@
 		</select> 
 
 		<label class="fw-bold">Fecha Retiro</label>
-		<select name="" class="form-select my-2">
-			<option>opcion1</option>
-			<option>opcion2</option>
-		</select> 
+		<input type="date" class="form-control mt-2" name="fecha">
 
     </div>
 
@@ -71,8 +64,13 @@
     	
     	<label class="fw-bold">Descuento Aceptado</label>
 		<select name="" class="form-select my-2">
-			<option>opcion1</option>
-			<option>opcion2</option>
+			<option selected>Lista de Descuentos</option>
+            <option value="40% X 6 MESES">30% X 6 MESES</option>
+            <option value="50% X 6 MESES">50% X 6 MESES</option>
+            <option value="20% X 12 MESES">20% X 12 MESES</option>
+            <option value="30% X 12 MESES">30% X 12 MESES</option>
+            <option value="40% X 12 MESES">40% X 12 MESES</option>
+            <option value="50% X 12 MESES">50% X 12 MESES</option>
 		</select> 
 
 		<label class="fw-bold">Sucursales</label>
@@ -158,8 +156,9 @@
     	
     	<label class="fw-bold">Bolsa Aceptada</label>
 		<select name="" class="form-select my-2">
-			<option>opcion1</option>
-			<option>opcion2</option>
+			<option selected>Lista de Bolsas</option>
+            <option value="Bolsa 100 GB">Bolsa 100 GB</option>
+            <option value="Bolsa 200 GB">Bolsa 200 GB</option>
 		</select> 
     </div>
 
