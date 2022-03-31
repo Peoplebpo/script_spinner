@@ -141,20 +141,17 @@
 <span id="cuadro"></span>
 
             <!-- botones -->
-
-            <div class="row">
-            <button type="button" class="btn btn-outline-success mt-2" onclick="crear_elemento();" style="float:right"><i class="bi bi-plus-square-dotted"></i></button>
+            <div class="container-fluid">
+               <button type="button" class="btn btn-outline-success mt-2" onclick="crear_elemento();" style="float:left"><i class="bi bi-plus-square-dotted"></i></button>
             </div>
 
 </form>
-  
-    
-
-
 
 <!--fin -->
-     <div class="row mt-5">
-          <a href="javascript:venta();"><button type="button" class="btn_script btn btn-secondary btn-xs text-white my-2" style="float:right; margin-right: 5px;">Venta</button></a>
-     </div>
 
+<div class="container-fluid mt-5">
+
+          <button type="button" class="btn_script btn btn-secondary btn-xs text-white my-2" style="float:right; margin-right: 5px;" onclick="venta();">Venta</button>
+
+</div>
 </div>
