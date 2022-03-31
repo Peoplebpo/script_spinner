@@ -7,34 +7,35 @@
 		</div>
 
 		<div class="col-6" id="inicial1">
-			<label>Tipo Cliente</label>
-			<select name="nombre_cliente" class="form-select my-2">
-				<option>opcion1</option>
-				<option>opcion2</option>
+			<label class="fw-bold">Tipo Cliente</label>
+			<select name="tipo_cliente" class="form-select my-2">
+				<option value="">--Seleccione una Opcion--</option>
+				<option value="titular">Titular</option>
+				<option value="usuario">Usuario</option>
 			</select> 
 
 		</div>
 
 		<div class="col-3" id="inicial2">
 
-			<label>Plan Actual</label>
-			<input type="name" name="nombre_cliente" class="form-control my-2" disabled="disabled">
+			<label class="fw-bold">Plan Actual</label>
+			<input type="name" name="plan_actual" class="form-control my-2" disabled="disabled">
 
-			<label>Minutos</label>
-			<input type="name" name="nombre_cliente" class="form-control my-2" disabled="disabled">
+			<label class="fw-bold">Minutos</label>
+			<input type="name" name="minutos" class="form-control my-2" disabled="disabled">
 
-			<label>Promedio de Consumo</label>
-			<input type="name" name="nombre_cliente" class="form-control my-2" disabled="disabled">
+			<label class="fw-bold">Promedio de Consumo</label>
+			<input type="name" name="consumo" class="form-control my-2" disabled="disabled">
 
 		</div>
 
 		<div class="col-3" id="inicial3">
 
-			<label>C Fijos</label>
-			<input type="name" name="nombre_cliente" class="form-control my-2" disabled="disabled">
+			<label class="fw-bold">C Fijos</label>
+			<input type="name" name="c_fijos" class="form-control my-2" disabled="disabled">
 
-			<label>GB</label>
-			<input type="name" name="nombre_cliente" class="form-control my-2" disabled="disabled"s>
+			<label class="fw-bold">GB</label>
+			<input type="name" name="gb" class="form-control my-2" disabled="disabled"s>
 
 		</div>
 

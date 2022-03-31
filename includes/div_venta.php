@@ -1,10 +1,10 @@
 <div class="col-12" id="venta" style="display:none;">
 
-    <label>
+    <label class="fw-bold">
     <input type="radio" name="venta1" id="descuento" value=""> Solo Descuento
 	</label>
 
-	<label>
+	<label class="fw-bold">
     <input type="radio" name="venta1" id="combinada" value=""> Herramienta Combinada
 	</label>
 
@@ -14,7 +14,7 @@
 
 	</br>
 
-	<label>Descuento</label>
+	<label class="fw-bold">Descuento</label>
 		<select name="" class="form-select my-2">
 			<option>opcion1</option>
 			<option>opcion2</option>
@@ -40,13 +40,13 @@
 
     <div class="col-3" id="venta1" style="display:none;">
 
-    	<label>Plan Aceptado</label>
+    	<label class="fw-bold">Plan Aceptado</label>
 		<select name="" class="form-select my-2">
 			<option>opcion1</option>
 			<option>opcion2</option>
 		</select> 
 
-		<label>Fecha Retiro</label>
+		<label class="fw-bold">Fecha Retiro</label>
 		<select name="" class="form-select my-2">
 			<option>opcion1</option>
 			<option>opcion2</option>
@@ -56,13 +56,13 @@
 
     <div class="col-3" id="venta2" style="display:none;">
     	
-    	<label>Descuento Aceptado</label>
+    	<label class="fw-bold">Descuento Aceptado</label>
 		<select name="" class="form-select my-2">
 			<option>opcion1</option>
 			<option>opcion2</option>
 		</select> 
 
-		<label>Sucursales</label>
+		<label class="fw-bold">Sucursales</label>
 		<select name="" class="form-select my-2">
 			<option>opcion1</option>
 			<option>opcion2</option>
@@ -72,20 +72,20 @@
  
     <div class="col-3" id="venta3" style="display:none;">
     	
-    	<label>Equipo Aceptado</label>
+    	<label class="fw-bold">Equipo Aceptado</label>
 		<select name="" class="form-select my-2">
 			<option>opcion1</option>
 			<option>opcion2</option>
 		</select> 
 
-		<label>Numero de Interacción ONE Línea Principal</label>
+		<label class="fw-bold">Numero de Interacción ONE Línea Principal</label>
 		<input type="name" name="" class="form-control my-2">
 
     </div>
 
     <div class="col-3" id="venta4" style="display:none;">
     	
-    	<label>Bolsa Aceptada</label>
+    	<label class="fw-bold">Bolsa Aceptada</label>
 		<select name="" class="form-select my-2">
 			<option>opcion1</option>
 			<option>opcion2</option>
