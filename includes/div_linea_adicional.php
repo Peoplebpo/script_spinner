@@ -142,11 +142,10 @@
 
             <!-- botones -->
 
-            <div class="container-fluid">
-
+            <div class="row">
             <button type="button" class="btn btn-outline-success mt-2" onclick="crear_elemento();" style="float:right"><i class="bi bi-plus-square-dotted"></i></button>
-    
             </div>
+
 </form>
   
     
@@ -154,7 +153,8 @@
 
 
 <!--fin -->
+     <div class="row mt-5">
+          <a href="javascript:venta();"><button type="button" class="btn_script btn btn-secondary btn-xs text-white my-2" style="float:right; margin-right: 5px;">Venta</button></a>
+     </div>
 
-     <a href="javascript:venta();"><button type="button" class="btn_script btn btn-secondary btn-xs text-white my-2" style="float:right; margin-right: 5px;">Venta</button></a>
-     
 </div>

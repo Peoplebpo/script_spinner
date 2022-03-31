@@ -1,11 +1,11 @@
 <div class="col-12" id="venta" style="display:none;">
 
     <label>
-    <input type="radio" name="" value=""> Solo Descuento
+    <input type="radio" name="venta1" id="descuento" value=""> Solo Descuento
 	</label>
 
 	<label>
-    <input type="radio" name="" value=""> Herramienta Combinada
+    <input type="radio" name="venta1" id="combinada" value=""> Herramienta Combinada
 	</label>
 
 	</br>
