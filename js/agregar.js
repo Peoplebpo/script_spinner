@@ -1,27 +1,23 @@
-<div class="col-12" id="l_adicional" style="display:none;">
+//Función  crear elemento
+function crear_elemento(){
+  
+   $('#cuadro').append(`
 
-<form method="POST" action='includes/procesa_agregar_linea.php'>
+   
+   
+   <div class="container-fluid mt-2">
+   <a type="button" class="mb-5 mt-2" onclick="eliminar_elemento(this);" style="float:right; margin-right: 5px;"><i class="bi bi-dash-circle-dotted"></i></a>
+   <div class="rounded border border-dark p-3" id="fondo">
 
-    <div class="container-fluid">
+       <div class="row">
 
-        <div class="row">
+           <div class="col">
+               <label class="fw-bold">PCS</label>
+               <input type="text" class="form-control mt-2" placeholder="Número Telefónico" name="pcs[]">
 
-            <p class="fs-4 fw-bold">LÍNEAS ADICIONALES</p>
-
-        </div>
-        <a type="button" class="mb-5 mt-2" style="float:right; margin-right: 5px;"><i class="bi bi-dash-circle-dotted"></i></a>
-
-        <div class="rounded border border-dark p-3" id="fondo">
-
-            <div class="row" id="linea">
-
-                <div class="col">
-                    <label class="fw-bold">PCS</label>
-                    <input type="text" class="form-control mt-2" placeholder="Número Telefónico" name="pcs[]">
-
-                    <label class="mt-2 fw-bold">Sucursal</label>
-                    <select class="form-select mt-2" name="sucursal[]">
-                        <option selected>Lista de Sucursales</option>
+               <label class="mt-2 fw-bold">Sucursal</label>
+               <select class="form-select mt-2" name="sucursal[]">
+                   <option value="" selected>Lista de Sucursales</option>
                         <option value="Antofagasta SSCC">Antofagasta SSCC</option>
                         <option value="Calama SSCC">Calama SSCC</option>
                         <option value="Copiapó SSCC">Copiapó SSCC</option>
@@ -80,81 +76,72 @@
                         <option value="Punta Arenas SSCC">Punta Arenas SSCC</option>
                         <option value="Valdivia SSCC">Valdivia SSCC</option>
                         <option value="Arica SSCC">Arica SSCC</option>
-                        <option value="Iquique SSCC">Iquique SSCC</option>                        
-                    </select>
-                </div>
+                        <option value="Iquique SSCC">Iquique SSCC</option>  
+               </select>
+           </div>
 
-                <div class="col">
-                    <label class="fw-bold">Equipo Aceptado</label>
-                    <input type="text" class="form-control mt-2" placeholder="Equipo o Código" name="equipo[]">
+           <div class="col">
+               <label class="fw-bold">Equipo Aceptado</label>
+               <input type="text" class="form-control mt-2" placeholder="Equipo o Código" name="equipo[]">
 
-                    <label class="mt-2 fw-bold">Bolsa</label>
-                    <select class="form-select mt-2" name="bolsa[]">
-                        <option selected>Lista de Bolsas</option>
-                        <option value="Bolsa 100 GB">Bolsa 100 GB</option>
-                        <option value="Bolsa 200 GB">Bolsa 200 GB</option>
-                    </select>
-                </div>
+               <label class="mt-2 fw-bold">Bolsa</label>
+               <select class="form-select mt-2" name="bolsa[]">
+                   <option value="" selected>Lista de Bolsas</option>
+                   <option value="Bolsa 100 GB">Bolsa 100 GB</option>
+                   <option value="Bolsa 100 GB">Bolsa 200 GB</option>
+               </select>
+           </div>
 
-                <div class="col">
-                    <label class="fw-bold">Interacción</label>
-                    <input type="text" class="form-control mt-2" placeholder="Número de Interacción" name="interaccion[]">
+           <div class="col">
+               <label class="fw-bold">Interacción</label>
+               <input type="text" class="form-control mt-2" placeholder="Número de Interacción" name="interaccion[]">
 
-                    <label class="mt-2 fw-bold">Descuento</label>
-                    <select class="form-select mt-2" name="descuento[]">
-                        <option selected>Lista de Descuentos</option>
-                        <option value="40% X 6 MESES">30% X 6 MESES</option>
-                        <option value="50% X 6 MESES">50% X 6 MESES</option>
-                        <option value="20% X 12 MESES">20% X 12 MESES</option>
-                        <option value="30% X 12 MESES">30% X 12 MESES</option>
-                        <option value="40% X 12 MESES">40% X 12 MESES</option>
-                        <option value="50% X 12 MESES">50% X 12 MESES</option>
-                    </select>
-                </div>
+               <label class="mt-2 fw-bold">Descuento</label>
+               <select class="form-select mt-2" name="descuento[]">
+                   <option value="" selected>Lista de Descuentos</option>
+                   <option value="40% X 6 MESES">30% X 6 MESES</option>
+                   <option value="50% X 6 MESES">50% X 6 MESES</option>
+                   <option value="20% X 12 MESES">20% X 12 MESES</option>
+                   <option value="30% X 12 MESES">30% X 12 MESES</option>
+                   <option value="40% X 12 MESES">40% X 12 MESES</option>
+                   <option value="50% X 12 MESES">50% X 12 MESES</option>
+               </select>
+           </div>
 
-                <div class="col">
-                    <label class="fw-bold">Plan</label>
-                    <select class="form-select mt-2" name="plan[]">
-                        <option selected>Lista de Planes</option>
-                        <option value="PLAN CUENTA EXACTA XS">PLAN CUENTA EXACTA XS</option>
-                        <option value="PLAN CUENTA EXACTA S">PLAN CUENTA EXACTA S</option>
-                        <option value="PLAN POSTPAGO MAX Y">PLAN POSTPAGO MAX Y</option>
-                        <option value="PLAN POSTPAGO MAX M">PLAN POSTPAGO MAX M</option>
-                        <option value="PLAN POSTPAGO MAX L">PLAN POSTPAGO MAX L</option>
-                        <option value="PLAN POSTPAGO MAX XL">PLAN POSTPAGO MAX XL</option>
-                        <option value="PLAN MAX PREMIUM LIBRE">PLAN MAX PREMIUM LIBRE</option>
-                        <option value="PLAN MAX PREMIUM BLACK LIBRE">PLAN MAX PREMIUM BLACK LIBRE</option>
-                        <option value="PLAN POSTPAGO MAX X">PLAN POSTPAGO MAX X</option>
-                    </select>
+           <div class="col">
+               <label class="fw-bold">Plan</label>
+               <select class="form-select mt-2" name="plan[]">
+                   <option value="" selected>Lista de Planes</option>
+                   <option value="PLAN CUENTA EXACTA XS">PLAN CUENTA EXACTA XS</option>
+                   <option value="PLAN CUENTA EXACTA S">PLAN CUENTA EXACTA S</option>
+                   <option value="PLAN POSTPAGO MAX Y">PLAN POSTPAGO MAX Y</option>
+                   <option value="PLAN POSTPAGO MAX M">PLAN POSTPAGO MAX M</option>
+                   <option value="PLAN POSTPAGO MAX L">PLAN POSTPAGO MAX L</option>
+                   <option value="PLAN POSTPAGO MAX XL">PLAN POSTPAGO MAX XL</option>
+                   <option value="PLAN MAX PREMIUM LIBRE">PLAN MAX PREMIUM LIBRE</option>
+                   <option value="PLAN MAX PREMIUM BLACK LIBRE">PLAN MAX PREMIUM BLACK LIBRE</option>
+                   <option value="PLAN POSTPAGO MAX X">PLAN POSTPAGO MAX X</option>
+               </select>
 
-                    <label class="mt-2 fw-bold">Fecha de Retiro</label>
-                    <input type="date" class="form-control mt-2" name="fecha[]">
-                </div>
+               <label class="mt-2 fw-bold">Fecha de Retiro</label>
+               <input type="date" class="form-control mt-2" name="fecha[]">
+           </div>
 
-            </div>
-
-        </div>
-
-    </div>
-
-
-<span id="cuadro"></span>
-
-            <!-- botones -->
-
-            <div class="container-fluid">
-
-            <button type="button" class="btn btn-outline-success mt-2" onclick="crear_elemento();" style="float:right"><i class="bi bi-plus-square-dotted"></i></button>
-    
-            </div>
-</form>
-  
-    
+       </div>
 
 
 
-<!--fin -->
+   </div>
 
-     <a href="javascript:venta();"><button type="button" class="btn_script btn btn-secondary btn-xs text-white my-2" style="float:right; margin-right: 5px;">Venta</button></a>
-     
 </div>
+
+
+
+
+    `);
+}
+
+//Función eliminar elemento
+function eliminar_elemento(valor){
+     valor.parentNode.parentNode.removeChild(valor.parentNode);
+}
