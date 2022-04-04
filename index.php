@@ -18,6 +18,13 @@
 	<script src="js/agregar.js"></script>
 	<script src="js/divs.js"></script>
 
+	<!-- SCRIPT GENERADOR DE GLOSA-->
+	<script src="includes/glosa/lib/clipboard.min.js"></script>
+	<script src="includes/glosa/js/tipificacion.js"></script>
+	<script src="includes/glosa/js/glosa.js"></script>
+	<script src="includes/glosa/js/descuento.js"></script>
+	<script src="includes/glosa/js/zoom.js"></script>
+
 </head>
 
 <body>

@@ -81,6 +81,9 @@ function c_llamada() {
             div = document.getElementById('i_relevante');
             div.style.display = 'none';
 
+            div = document.getElementById('g_glosa');
+            div.style.display = 'none';
+
         }
 
 function inicio() {
