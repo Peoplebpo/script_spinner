@@ -90,6 +90,8 @@ $usuario      = "ivan ruiz delfin";
 
 <body>
 
+<div class="col-12" id="g_glosa" style="display:none;">
+
   <!--botones-->
   <div class="container-fluid my-2">
     <div class="row">
@@ -273,7 +275,13 @@ $usuario      = "ivan ruiz delfin";
 
   </div>
 
+  <div class="col-12 mt-3" id="g_glosa1">
 
+<button type="button" class="btn_script btn btn-primary btn-xs text-white my-2" style="float:right; margin-right: 5px;" onclick="venta()">Venta</button> 
+
+</div>
+
+  </div>
 
 </body>
 

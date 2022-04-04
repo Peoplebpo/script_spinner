@@ -196,9 +196,54 @@ function venta() {
             div = document.getElementById('l_adicional');
             div.style.display = 'none';
 
+            div = document.getElementById('g_glosa');
+            div.style.display = 'none';
+
+            div = document.getElementById('g_glosa1');
+            div.style.display = 'none';
+
             div = document.getElementById('i_siempre');
             div.style.display = 'none';
         }
+
+        function g_glosa() {
+
+            div = document.getElementById('g_glosa');
+            div.style.display = '';
+
+            div = document.getElementById('g_glosa1');
+            div.style.display = '';
+
+            div = document.getElementById('venta');
+            div.style.display = 'none';
+
+            div = document.getElementById('venta1');
+            div.style.display = 'none';
+
+            div = document.getElementById('venta2');
+            div.style.display = 'none';
+
+            div = document.getElementById('venta3');
+            div.style.display = 'none';
+
+            div = document.getElementById('venta4');
+            div.style.display = 'none';
+
+            div = document.getElementById('venta5');
+            div.style.display = 'none';
+
+            div = document.getElementById('venta6');
+            div.style.display = 'none';
+
+            div = document.getElementById('venta7');
+            div.style.display = 'none';
+
+            div = document.getElementById('venta8');
+            div.style.display = 'none';
+
+        }
+
+
 
 function l_adicional() {
     

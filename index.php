@@ -45,73 +45,67 @@
 				<a href="#"><button type="button" class="btn btn-light btn-xs text-dark border border-dark my-2"
 						style="float:right; margin-right: 5px;"> Legrado Cobranza </button></a>
 
-				<a href="#"><button type="button" class="btn btn-light btn-xs text-dark border border-dark my-2"
-						style="float:right; margin-right: 5px;"> Generador de Glosa </button></a>
 			</div>
 
 		</div>
 		<!--INICIO DIV PERMANENTE -->
+
 		<?php
-	 include ('includes/div_permanente.php')
-	?>
+	 	include ('includes/div_permanente.php')
+		?>
+
 		<!--FIN DIV PERMANENTE -->
+
 		<div class="row border border-secondary mx-0 shadow-sm py-3 bg-light my-2 rounded border">
 
-			<!-- PANTALLA INICIO -->
+		<!-- PANTALLA INICIO -->
 
 			<?php
-	 include ('includes/div_inicial.php')
-	?>
+			include ('includes/div_inicial.php')
+			?>
 
-			<!-- FIN PANTALLA INICIO -->
-
-			<!-- PANTALLA VENTA -->
+		<!-- PANTALLA VENTA -->
 
 			<?php
-	 include ('includes/div_venta.php')
-	?>
+			include ('includes/div_venta.php')
+			?>
 
-			<!-- FIN PANTALLA VENTA -->
-
-			<!-- PANTALLA LINEAS ADICIONALES -->
+		<!-- PANTALLA LINEAS ADICIONALES -->
 
 			<?php
-	 include ('includes/div_linea_adicional.php')
-	?>
+			include ('includes/div_linea_adicional.php')
+			?>
 
-			<!--FIN PANTALLA LINEAS ADICIONALES -->
-
-			<!--PANTALLA INFORMAR SIEMPRE -->
+		<!--PANTALLA INFORMAR SIEMPRE -->
 
 			<?php
-	 include ('includes/div_info_siempre.php')
-	?>
+			include ('includes/div_info_siempre.php')
+			?>
 
-			<!--FIN PANTALLA INFORMAR SIEMPRE -->
-
-			<!--PANTALLA INFORMAR RELEVANTE -->
+		<!--PANTALLA INFORMAR RELEVANTE -->
 
 			<?php
-	 include ('includes/div_info_relevante.php')
-	?>
+			include ('includes/div_info_relevante.php')
+			?>
 
-			<!--FIN PANTALLA INFORMAR RELEVANTE -->
-
-			<!--PANTALLA CIERRE VENTA -->
+		<!--PANTALLA CIERRE VENTA -->
 
 			<?php
-	 include ('includes/div_cierre_venta.php')
-	?>
+			include ('includes/div_cierre_venta.php')
+			?>
 
-			<!--FIN PANTALLA CIERRE VENTA -->
-
-			<!--PANTALLA CERRAR LLAMADA -->
+		<!--PANTALLA CERRAR LLAMADA -->
 
 			<?php
-	 include ('includes/div_cerrar_llamada.php')
-	?>
+			include ('includes/div_cerrar_llamada.php')
+			?>
 
-			<!--FIN PANTALLA CERRAR LLAMADA -->
+		<!--PANTALLA GENERADOR DE GLOSA -->
+
+			<?php
+			include ('includes/glosa/agen_ingresar.php')
+			?>
+	
 		</div>
 
 	</div>
