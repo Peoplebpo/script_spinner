@@ -35,10 +35,10 @@
 
     </div>
 
-    <div class="col-12" id="c_llamada4" style="display:none;">
+    <div class="col-12 mt-3" id="c_llamada4" style="display:none;">
 
-    <button type="button" class="btn_script btn btn-success btn-xs text-white my-2" style="float:right; margin-right: 5px;">Finalizar</button>
+    <button type="button" class="btn_script btn btn-success btn-xs text-white" style="float:right;">Finalizar</button>
 
-    <button type="button" class="btn_script btn btn-secondary btn-xs text-white my-2" style="float:right; margin-right: 5px;" onclick="inicio();">Inicio</button>
+    <button type="button" class="btn_script btn btn-secondary btn-xs text-white" style="float:right;" onclick="inicio();">Inicio</button>
 
 	</div>

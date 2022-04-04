@@ -151,7 +151,7 @@
 
 <div class="container-fluid mt-5">
 
-          <button type="button" class="btn_script btn btn-secondary btn-xs text-white my-2" style="float:right; margin-right: 5px;" onclick="venta();">Venta</button>
+          <button type="button" class="btn_script btn btn-secondary btn-xs text-white my-2" style="float:right;" onclick="venta();">Venta</button>
 
 </div>
 </div>

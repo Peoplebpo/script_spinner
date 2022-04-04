@@ -1,4 +1,4 @@
-<div class="row border border-secondary mx-0 shadow-sm py-3 bg-light my-2 rounded border">
+<div class="row border border-secondary mx-0 shadow-sm bg-light my-2 rounded border p-3">
 
 	<div class="col">
 		<label class="fw-bold">Nombre Cliente</label>

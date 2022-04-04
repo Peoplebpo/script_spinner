@@ -52,24 +52,25 @@
 		</div>
 		<!--INICIO DIV PERMANENTE -->
 		<?php
-	 include ('includes/div_permanente.php')
-	?>
+	 	include ('includes/div_permanente.php')
+		?>
 		<!--FIN DIV PERMANENTE -->
-		<div class="row border border-secondary mx-0 shadow-sm py-3 bg-light my-2 rounded border">
+
+		<div class="row border border-secondary mx-0 shadow-sm bg-light my-2 rounded border p-3">
 
 			<!-- PANTALLA INICIO -->
 
 			<?php
-	 include ('includes/div_inicial.php')
-	?>
+	 		include ('includes/div_inicial.php')
+			?>
 
 			<!-- FIN PANTALLA INICIO -->
 
 			<!-- PANTALLA VENTA -->
 
 			<?php
-	 include ('includes/div_venta.php')
-	?>
+			 include ('includes/div_venta.php')
+			?>
 
 			<!-- FIN PANTALLA VENTA -->
 
