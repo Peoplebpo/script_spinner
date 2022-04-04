@@ -41,7 +41,7 @@ $usuario      = "ivan ruiz delfin";
 <div class="col-12" id="g_glosa" style="display:none;">
 
   <!--botones-->
-  <div class="container-fluid my-2">
+  <div class="container-fluid my-2 p-0">
     <div class="row">
 
       <div class="col">
@@ -52,7 +52,7 @@ $usuario      = "ivan ruiz delfin";
   </div>
   <!--titulo-->
 
-  <div class="container-fluid">
+  <div class="container-fluid  p-0">
 
     <div class="row border border-secondary rounded mx-0 shadow-sm py-3 fondo_cuadro">
 
@@ -60,12 +60,12 @@ $usuario      = "ivan ruiz delfin";
 
       <div class="col">
 
-        <label class="mt-2">Nombre</label>
-        <input name="nombres" type="name" class="form-control" value="<?php echo $usuario; ?>" size="32" id="nombres"
+        <label class="mt-2 fw-bold">Nombre</label>
+        <input name="nombres" type="name" class="form-control mt-2" value="<?php echo $usuario; ?>" size="32" id="nombres"
           disabled>
 
-        <label>Descuento</label>
-        <select name="descuento" id="descuento" class="form-control">
+        <label class="mt-2 fw-bold">Descuento</label>
+        <select name="descuento" id="descuento" class="form-control mt-2 ">
           <option value=""></option>
           <option value="40% X 6 MESES">30% X 6 MESES</option>
           <option value="50% X 6 MESES">50% X 6 MESES</option>
@@ -81,11 +81,11 @@ $usuario      = "ivan ruiz delfin";
 
       <div class="col">
 
-        <label>Pcs</label>
-        <input name="pcs" type="name" class="form-control" size="32" id="pcs" required="required" />
+        <label class="mt-2 fw-bold">Pcs</label>
+        <input name="pcs" type="name" class="form-control mt-2" size="32" id="pcs" required="required" />
 
-        <label class="mt-2">Bono Cep</label>
-        <select name="cep" class="form-control" id="cep">
+        <label class="mt-2 fw-bold">Bono Cep</label>
+        <select name="cep" class="form-control mt-2" id="cep">
           <option value=""></option>
           <option value="LG K22 / PIE $0/ 24 CUOTAS $4.000">LG K22 / PIE $0/ 24 CUOTAS $4.000</option>
           <option value="SAMSUNG A31 / PIE $0/ 24 CUOTAS $9.000">SAMSUNG A31 / PIE $0/ 24 CUOTAS $9.000</option>
@@ -100,8 +100,8 @@ $usuario      = "ivan ruiz delfin";
 
       <div class="col">
 
-        <label>Accion</label>
-        <select name="accion" id="accion" class="form-control">
+        <label class="mt-2 fw-bold">Accion</label>
+        <select name="accion" id="accion" class="form-control mt-2">
           <option value=""></option>
           <option value="CDP">CDP</option>
           <option value="DESC">DESC</option>
@@ -117,8 +117,8 @@ $usuario      = "ivan ruiz delfin";
         </select>
 
 
-        <label class="mt-2">Sucursal</label>
-        <select class="selectpicker form-control border" id="sucursal" name="sucursal" data-live-search="true">
+        <label class="mt-2 fw-bold">Sucursal</label>
+        <select class="selectpicker form-control border mt-2" id="sucursal" name="sucursal" data-live-search="true">
 
           <option selected="selected" value="">Seleccione Sucursal</option>
           <?php
@@ -149,8 +149,8 @@ $usuario      = "ivan ruiz delfin";
 
       <div class="col">
 
-        <label>Plan</label>
-        <select name="plan" id="plan" class="form-control">
+        <label class="mt-2 fw-bold">Plan</label>
+        <select name="plan" id="plan" class="form-control mt-2">
           <option value=""></option>
           <option value="PLAN CUENTA EXACTA XS">PLAN CUENTA EXACTA XS</option>
           <option value="PLAN CUENTA EXACTA S">PLAN CUENTA EXACTA S</option>
@@ -167,11 +167,11 @@ $usuario      = "ivan ruiz delfin";
     </div>
   </div>
 
-  <div class="container-fluid my-2">
+  <div class="container-fluid my-2 p-0">
 
     <div class="row border border-secondary rounded mx-0 shadow-sm py-3 fondo_cuadro">
       <div class="col-12">
-        <label>Resumen para comentario en Altitud</label>
+        <label class="mt-2 fw-bold">Resumen para comentario en Altitud</label>
         <div class="bg-light my-2 w-100 p-3 border border-dark rounded" id="foo">
 
           <label id="1"></label> // <label id="2"></label> <label id="3"></label> <label id="4"></label> <label
@@ -225,7 +225,7 @@ $usuario      = "ivan ruiz delfin";
 
   <div class="col-12 mt-3" id="g_glosa1">
 
-<button type="button" class="btn_script btn btn-primary btn-xs text-white my-2" style="float:right; margin-right: 5px;" onclick="venta()">Venta</button> 
+<button type="button" class="btn_script btn btn-primary btn-xs text-white my-2" style="float:right;" onclick="venta()">Venta</button> 
 
 </div>
 

@@ -193,7 +193,7 @@
 
     <button type="button" class="btn_script btn btn-danger btn-xs text-white my-2" style="float:right; margin-right: 5px;" onclick="l_adicional();">Lineas Adicionales</button></a>
 
-    <button type="button" class="btn_script btn btn-danger btn-xs text-white my-2" style="float:right; margin-right: 5px;" onclick="g_glosa();">Generador de Glosa</button></a>
+    <button type="button" class="btn_script btn btn-warning btn-xs text-white my-2" style="float:right; margin-right: 5px;" onclick="g_glosa();">Generador de Glosa</button></a>
 
     <button type="button" class="btn_script btn btn-secondary btn-xs text-white my-2" style="float:right; margin-right: 5px;" onclick="inicio();">Inicio</button>     
 
