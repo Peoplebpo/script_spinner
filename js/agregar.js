@@ -5,7 +5,7 @@ function crear_elemento(){
 
    
    
-   <div class="container-fluid mt-2">
+   <div class="container-fluid mt-2 p-0">
    <a type="button" class="mb-5 mt-2" onclick="eliminar_elemento(this);" style="float:right; margin-right: 5px;"><i class="bi bi-dash-circle-dotted"></i></a>
    <div class="rounded border border-dark p-3" id="fondo">
 
