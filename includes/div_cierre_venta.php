@@ -2,10 +2,21 @@
 
  	<label class="fw-bold">Seleccione un tipo de venta</label>
 	<select name="" class="form-select my-2">
-		<option>opcion1</option>
-		<option>opcion2</option>
+        <option>--Seleccione una Venta--</option>
+		<option value="Acepta Bolsa">Acepta Bolsa</option>
+		<option value="Acepta CDP">Acepta CDP</option>
+        <option value="Acepta Cambio de Equipo">Acepta Cambio de Equipo</option>
+        <option value="Acepta CDP + Cambio de Equipo">Acepta CDP + Cambio de Equipo</option>
+        <option value="Acepta CDP + Descuento + Cambio de Equipo">Acepta CDP + Descuento + Cambio de Equipo</option>
+        <option value="Acepta CDP + Descuento + Bolsa + Cambio de Equipo">Acepta CDP + Descuento + Bolsa + Cambio de Equipo</option>
+        <option value="Acepta Descuento + Bolsa + Cambio de Equipo">Acepta Descuento + Bolsa + Cambio de Equipo</option>
+        <option value="Acepta Cambio de Equipo + Bolsa">Acepta Cambio de Equipo + Bolsa</option>
+        <option value="Acepta Descuento + Bolsa">Acepta Descuento + Bolsa</option>
+        <option value="Acepta Descuento + CDP + Bolsa">Acepta Descuento + CDP + Bolsa</option>
+        <option value="Acepta Descuento">Acepta Descuento</option>
+        <option value="Acepta Descuento + CDP">Acepta Descuento + CDP</option>
+        <option value="Acepta Informacion">Acepta Informacion</option>
 	</select> 
-
 
     </div>
 

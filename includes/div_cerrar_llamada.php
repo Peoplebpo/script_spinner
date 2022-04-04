@@ -1,9 +1,10 @@
 <div class="col-3" id="c_llamada" style="display:none;">
 
     <label class="fw-bold">Estado</label>
-	<select name="" class="form-select my-2">
-		<option>opcion1</option>
-		<option>opcion2</option>
+	<select name="estado" id="estado" class="form-select my-2">
+        <option value="">--Seleccione Estado--</option>
+		<option value="Rechazo">RECHAZO</option>
+		<option value="NO CONTACTADO">NO CONTACTADO</option>
 	</select>
 
 	<label class="fw-bold">Telefono Rellamada</label>
@@ -14,9 +15,8 @@
     <div class="col-3" id="c_llamada1" style="display:none;">
 
     <label class="fw-bold">Tipificacion</label>
-	<select name="" class="form-select my-2">
-		<option>opcion1</option>
-		<option>opcion2</option>
+	<select name="tipificacion" id="tipificacion" class="form-select my-2">
+
 	</select> 
 
     </div>

@@ -15,6 +15,9 @@ function c_llamada() {
             div = document.getElementById('c_llamada4');
             div.style.display = '';
 
+            div = document.getElementById('marco');
+            div.style.display = 'none';
+
             div = document.getElementById('inicial');
             div.style.display = 'none';
 
@@ -49,6 +52,15 @@ function c_llamada() {
             div.style.display = 'none';
 
             div = document.getElementById('venta5');
+            div.style.display = 'none';
+
+            div = document.getElementById('venta6');
+            div.style.display = 'none';
+
+            div = document.getElementById('venta7');
+            div.style.display = 'none';
+
+            div = document.getElementById('venta8');
             div.style.display = 'none';
 
             div = document.getElementById('cierre_venta');
@@ -106,6 +118,18 @@ function inicio() {
             div = document.getElementById('venta5');
             div.style.display = 'none';
 
+            div = document.getElementById('venta6');
+            div.style.display = 'none';
+
+            div = document.getElementById('venta7');
+            div.style.display = 'none';
+
+            div = document.getElementById('venta8');
+            div.style.display = 'none';
+
+            div = document.getElementById('marco');
+            div.style.display = '';
+
             div = document.getElementById('inicial');
             div.style.display = '';
 
@@ -141,6 +165,18 @@ function venta() {
 
             div = document.getElementById('venta5');
             div.style.display = '';
+
+            div = document.getElementById('venta6');
+            div.style.display = '';
+
+            div = document.getElementById('venta7');
+            div.style.display = '';
+
+            div = document.getElementById('venta8');
+            div.style.display = '';
+            
+            div = document.getElementById('marco');
+            div.style.display = 'none';
 
             div = document.getElementById('inicial');
             div.style.display = 'none';
@@ -186,6 +222,15 @@ function l_adicional() {
 
             div = document.getElementById('venta5');
             div.style.display = 'none';
+
+            div = document.getElementById('venta6');
+            div.style.display = 'none';
+
+            div = document.getElementById('venta7');
+            div.style.display = 'none';
+
+            div = document.getElementById('venta8');
+            div.style.display = 'none';
         }
 
 function i_siempre() {
@@ -209,6 +254,15 @@ function i_siempre() {
             div.style.display = 'none';
 
             div = document.getElementById('venta5');
+            div.style.display = 'none';
+
+            div = document.getElementById('venta6');
+            div.style.display = 'none';
+
+            div = document.getElementById('venta7');
+            div.style.display = 'none';
+
+            div = document.getElementById('venta8');
             div.style.display = 'none';
 
             div = document.getElementById('i_relevante');

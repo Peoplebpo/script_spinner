@@ -16,7 +16,9 @@
 
 		</div>
 
-		<div class="col-3" id="inicial2">
+		<span class="col-6 border border-dark my-2" id="marco">
+
+		<div class="col-5" style="float: left;" id="inicial2">
 
 			<label class="fw-bold">Plan Actual</label>
 			<input type="name" name="plan_actual" class="form-control my-2" disabled="disabled">
@@ -29,7 +31,7 @@
 
 		</div>
 
-		<div class="col-3" id="inicial3">
+		<div class="col-5" style="float: left; margin: 0px 0px 10px 20px;" id="inicial3">
 
 			<label class="fw-bold">C Fijos</label>
 			<input type="name" name="c_fijos" class="form-control my-2" disabled="disabled">
@@ -38,8 +40,8 @@
 			<input type="name" name="gb" class="form-control my-2" disabled="disabled"s>
 
 		</div>
-
-		<div class="col-12" id="inicial4">
+		</span>
+		<div class="col-12 mt-3" id="inicial4">
 
 		<button type="button" class="btn_script btn btn-primary btn-xs text-white my-2" style="float:right; margin-right: 5px;" onclick="venta()">Venta</button> 
 

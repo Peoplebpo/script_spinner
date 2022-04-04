@@ -5,3 +5,8 @@ input[type="name"]:disabled {
 #fondo {
   background-color: #FFF2CC;
 }
+
+.texto{
+
+	color: red;
+}
