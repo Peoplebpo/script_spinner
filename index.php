@@ -51,7 +51,7 @@
 			<div class="col-7">
 
 				<a href="#"><button type="button" class="btn btn-light btn-xs text-dark border border-dark my-2"
-						style="float:right; margin-right: 5px;"> Legrado Cobranza </button></a>
+						style="float:right;"> Legrado Cobranza </button></a>
 
 			</div>
 
