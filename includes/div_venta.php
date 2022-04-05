@@ -185,7 +185,7 @@
     <div class="col-12 my-2" id="venta6" style="display:none;">
         <label class="fw-bold">Comentarios</label>
         <br>
-        <textarea style="resize: none;"></textarea>
+        <textarea class="form-control" style="resize: none;" cols="224" rows="3"></textarea>
     </div>
 
 

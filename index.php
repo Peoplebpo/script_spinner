@@ -61,38 +61,25 @@
 		<?php
 	 	include ('includes/div_permanente.php')
 		?>
-<<<<<<< HEAD
+
 		<!--FIN DIV PERMANENTE -->
 
 		<div class="row border border-secondary mx-0 shadow-sm bg-light my-2 rounded border p-3">
-=======
 
-		<!--FIN DIV PERMANENTE -->
-
-		<div class="row border border-secondary mx-0 shadow-sm py-3 bg-light my-2 rounded border">
->>>>>>> 626ed0c0abdd387e7e41d34921afc2195e51357b
 
 		<!-- PANTALLA INICIO -->
 
 			<?php
-<<<<<<< HEAD
-	 		include ('includes/div_inicial.php')
-			?>
 
-			<!-- FIN PANTALLA INICIO -->
-=======
 			include ('includes/div_inicial.php')
 			?>
->>>>>>> 626ed0c0abdd387e7e41d34921afc2195e51357b
 
 		<!-- PANTALLA VENTA -->
 
 			<?php
-<<<<<<< HEAD
-			 include ('includes/div_venta.php')
-=======
+
 			include ('includes/div_venta.php')
->>>>>>> 626ed0c0abdd387e7e41d34921afc2195e51357b
+
 			?>
 
 		<!-- PANTALLA LINEAS ADICIONALES -->
