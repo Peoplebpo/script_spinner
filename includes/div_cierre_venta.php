@@ -1,3 +1,8 @@
+<div class="row" id="cierre_venta4" style="display:none;">
+
+    <p class="fs-4 fw-bold">CERRAR VENTA</p>
+</div>
+
 <div class="col-6" id="cierre_venta" style="display:none;">
 
  	<label class="fw-bold">Seleccione un tipo de venta</label>
@@ -39,10 +44,10 @@
     </div>
 
 
-    <div class="col-12" id="cierre_venta3" style="display:none;">
+    <div class="col-12 mt-4" id="cierre_venta3" style="display:none;">
 
-    <button type="button" class="btn_script btn btn-success btn-xs text-white my-2" style="float:right; margin-right: 5px;">Finalizar</button>
+    <button type="button" class="btn_script btn btn-success btn-xs text-white" style="float:right;">Finalizar</button>
 
-    <button type="button" class="btn_script btn btn-secondary btn-xs text-white my-2" style="float:right; margin-right: 5px;" onclick="i_relevante();">Informacion Relevante</button>
+    <button type="button" class="btn_script btn btn-secondary btn-xs text-white" style="float:right; margin-right: 5px;" onclick="i_relevante();">Informacion Relevante</button>
 
     </div>

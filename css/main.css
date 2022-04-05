@@ -10,3 +10,13 @@ input[type="name"]:disabled {
 
 	color: red;
 }
+
+.boton{
+	height: 25px;
+	width: 25px;
+}
+
+.checkbox{
+	height: 25px;
+	width: 25px;
+}

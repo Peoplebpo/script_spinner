@@ -64,18 +64,22 @@
 
 		<!--FIN DIV PERMANENTE -->
 
-		<div class="row border border-secondary mx-0 shadow-sm py-3 bg-light my-2 rounded border">
+		<div class="row border border-secondary mx-0 shadow-sm bg-light my-2 rounded border p-3">
+
 
 		<!-- PANTALLA INICIO -->
 
 			<?php
+
 			include ('includes/div_inicial.php')
 			?>
 
 		<!-- PANTALLA VENTA -->
 
 			<?php
+
 			include ('includes/div_venta.php')
+
 			?>
 
 		<!-- PANTALLA LINEAS ADICIONALES -->
