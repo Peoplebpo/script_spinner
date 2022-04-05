@@ -2,7 +2,7 @@
 
 <form method="POST" action='includes/procesa_agregar_linea.php'>
 
-    <div class="container-fluid">
+    <div class="container-fluid p-0">
 
         <div class="row">
 
@@ -141,7 +141,7 @@
 <span id="cuadro"></span>
 
             <!-- botones -->
-            <div class="container-fluid">
+            <div class="container-fluid p-0">
                <button type="button" class="btn btn-outline-success mt-2" onclick="crear_elemento();" style="float:left"><i class="bi bi-plus-square-dotted"></i></button>
             </div>
 
@@ -149,7 +149,7 @@
 
 <!--fin -->
 
-<div class="container-fluid mt-5">
+<div class="container-fluid mt-5 p-0">
 
           <button type="button" class="btn_script btn btn-secondary btn-xs text-white my-2" style="float:right;" onclick="venta();">Venta</button>
 

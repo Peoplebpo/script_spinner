@@ -10,6 +10,7 @@
 	<link rel="stylesheet" href="css/main.css">
 
 	<script src="lib/jquery.js"></script>
+	<script src="includes/glosa/js/zoom.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
 		integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous">
 	</script>
@@ -17,6 +18,13 @@
 	<script src="js/tipificacion.js"></script>
 	<script src="js/agregar.js"></script>
 	<script src="js/divs.js"></script>
+
+	<!-- SCRIPT GENERADOR DE GLOSA-->
+	<script src="lib/clipboard.min.js"></script>
+	<script src="includes/glosa/js/tipificacion.js"></script>
+	<script src="includes/glosa/js/glosa.js"></script>
+	<script src="includes/glosa/js/descuento.js"></script>
+
 
 </head>
 
@@ -45,74 +53,84 @@
 				<a href="#"><button type="button" class="btn btn-light btn-xs text-dark border border-dark my-2"
 						style="float:right; margin-right: 5px;"> Legrado Cobranza </button></a>
 
-				<a href="#"><button type="button" class="btn btn-light btn-xs text-dark border border-dark my-2"
-						style="float:right; margin-right: 5px;"> Generador de Glosa </button></a>
 			</div>
 
 		</div>
 		<!--INICIO DIV PERMANENTE -->
+
 		<?php
 	 	include ('includes/div_permanente.php')
 		?>
+<<<<<<< HEAD
 		<!--FIN DIV PERMANENTE -->
 
 		<div class="row border border-secondary mx-0 shadow-sm bg-light my-2 rounded border p-3">
+=======
 
-			<!-- PANTALLA INICIO -->
+		<!--FIN DIV PERMANENTE -->
+
+		<div class="row border border-secondary mx-0 shadow-sm py-3 bg-light my-2 rounded border">
+>>>>>>> 626ed0c0abdd387e7e41d34921afc2195e51357b
+
+		<!-- PANTALLA INICIO -->
 
 			<?php
+<<<<<<< HEAD
 	 		include ('includes/div_inicial.php')
 			?>
 
 			<!-- FIN PANTALLA INICIO -->
+=======
+			include ('includes/div_inicial.php')
+			?>
+>>>>>>> 626ed0c0abdd387e7e41d34921afc2195e51357b
 
-			<!-- PANTALLA VENTA -->
+		<!-- PANTALLA VENTA -->
 
 			<?php
+<<<<<<< HEAD
 			 include ('includes/div_venta.php')
+=======
+			include ('includes/div_venta.php')
+>>>>>>> 626ed0c0abdd387e7e41d34921afc2195e51357b
 			?>
 
-			<!-- FIN PANTALLA VENTA -->
-
-			<!-- PANTALLA LINEAS ADICIONALES -->
+		<!-- PANTALLA LINEAS ADICIONALES -->
 
 			<?php
-	 include ('includes/div_linea_adicional.php')
-	?>
+			include ('includes/div_linea_adicional.php')
+			?>
 
-			<!--FIN PANTALLA LINEAS ADICIONALES -->
-
-			<!--PANTALLA INFORMAR SIEMPRE -->
+		<!--PANTALLA INFORMAR SIEMPRE -->
 
 			<?php
-	 include ('includes/div_info_siempre.php')
-	?>
+			include ('includes/div_info_siempre.php')
+			?>
 
-			<!--FIN PANTALLA INFORMAR SIEMPRE -->
-
-			<!--PANTALLA INFORMAR RELEVANTE -->
+		<!--PANTALLA INFORMAR RELEVANTE -->
 
 			<?php
-	 include ('includes/div_info_relevante.php')
-	?>
+			include ('includes/div_info_relevante.php')
+			?>
 
-			<!--FIN PANTALLA INFORMAR RELEVANTE -->
-
-			<!--PANTALLA CIERRE VENTA -->
+		<!--PANTALLA CIERRE VENTA -->
 
 			<?php
-	 include ('includes/div_cierre_venta.php')
-	?>
+			include ('includes/div_cierre_venta.php')
+			?>
 
-			<!--FIN PANTALLA CIERRE VENTA -->
-
-			<!--PANTALLA CERRAR LLAMADA -->
+		<!--PANTALLA CERRAR LLAMADA -->
 
 			<?php
-	 include ('includes/div_cerrar_llamada.php')
-	?>
+			include ('includes/div_cerrar_llamada.php')
+			?>
 
-			<!--FIN PANTALLA CERRAR LLAMADA -->
+		<!--PANTALLA GENERADOR DE GLOSA -->
+
+			<?php
+			include ('includes/glosa/agen_ingresar.php')
+			?>
+	
 		</div>
 
 	</div>

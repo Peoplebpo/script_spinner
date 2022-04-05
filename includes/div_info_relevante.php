@@ -51,6 +51,6 @@
 
     <button type="button" class="btn_script btn btn-primary btn-xs text-white mt-5" style="float:right;" onclick="cierre_venta();">Cierre Venta</button>
 
-	<button type="button" class="btn_script btn btn-secondary btn-xs text-white mt-5" style="float:right;" onclick="i_siempre();">Informar Siempre</button>
+	<button type="button" class="btn_script btn btn-secondary btn-xs text-white mt-5" style="float:right; margin-right: 5px;" onclick="i_siempre();">Informar Siempre</button>
 
 	</div>

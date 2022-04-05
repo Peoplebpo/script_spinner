@@ -58,6 +58,6 @@
 
 	<button type="button" class="btn_script btn btn-primary btn-xs text-white mt-3" style="float:right;" onclick="i_relevante();">Informacion Relevante</button></a>
 
-    <button type="button" class="btn_script btn btn-secondary btn-xs text-white mt-3" style="float:right;" onclick="venta();">Venta</button>
+    <button type="button" class="btn_script btn btn-secondary btn-xs text-white mt-3" style="float:right; margin-right: 5px;" onclick="venta();">Venta</button>
 
 	</div>

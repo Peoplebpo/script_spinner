@@ -48,6 +48,6 @@
 
     <button type="button" class="btn_script btn btn-success btn-xs text-white" style="float:right;">Finalizar</button>
 
-    <button type="button" class="btn_script btn btn-secondary btn-xs text-white" style="float:right;" onclick="i_relevante();">Informacion Relevante</button>
+    <button type="button" class="btn_script btn btn-secondary btn-xs text-white" style="float:right; margin-right: 5px;" onclick="i_relevante();">Informacion Relevante</button>
 
     </div>
