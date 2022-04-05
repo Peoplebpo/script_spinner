@@ -4,7 +4,7 @@
 
     <div class="form-check">
     
-    <label class="form-check-label texto" for="flexCheckDefault"><input class="form-check-input checkbox" type="checkbox" value="" id="flexCheckDefault">Le informo que dentro de las 48 a 72 horas hábiles, Una vez que se haya cursado su plan, le haremos envío de un CORREO ELECTRÓNICO con las condiciones Comerciales de la oferta entregada y aceptada el día de hoy.</label>
+    <label class="form-check-label fw-bold" for="flexCheckDefault"><input class="form-check-input checkbox" type="checkbox" value="" id="flexCheckDefault">Le informo que dentro de las 48 a 72 horas hábiles, Una vez que se haya cursado su plan, le haremos envío de un CORREO ELECTRÓNICO con las condiciones Comerciales de la oferta entregada y aceptada el día de hoy.</label>
     </div>
 
     <div class="form-check"> 
@@ -32,7 +32,7 @@
     <label class="form-check-label" for="flexCheckDefault"><input class="form-check-input checkbox" type="checkbox" value="" id="flexCheckDefault">Para el uso del Servicio de ROAMING y llamadas a LDI Consultar condiciones comerciales en www.clarochile.cl. (VENEZUELA no está incluido para llamadas de larga distancia internacional).</label>
     </div>
 
-    <h5 class="my-3 texto fw-bold">INFORMACIÓN RELEVANTE (CEP)</h5>
+    <h5 class="my-3 fw-bold">INFORMACIÓN RELEVANTE (CEP)</h5>
 
     <div class="form-check">
     
