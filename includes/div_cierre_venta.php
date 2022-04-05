@@ -1,3 +1,8 @@
+<div class="row" id="cierre_venta4" style="display:none;">
+
+    <p class="fs-4 fw-bold">CERRAR VENTA</p>
+</div>
+
 <div class="col-6" id="cierre_venta" style="display:none;">
 
  	<label class="fw-bold">Seleccione un tipo de venta</label>

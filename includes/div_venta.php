@@ -1,3 +1,8 @@
+<div class="row" id="venta9" style="display:none;">
+
+    <p class="fs-4 fw-bold">VENTA</p>
+</div>
+
 <div class="col-2" id="venta" style="display:none;">
 
     <div class="form-check">

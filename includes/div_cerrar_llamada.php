@@ -1,3 +1,8 @@
+<div class="row" id="c_llamada5" style="display:none;">
+
+    <p class="fs-4 fw-bold">CERRAR LLAMADA</p>
+</div>
+
 <div class="col-3" id="c_llamada" style="display:none;">
 
     <label class="fw-bold">Estado</label>

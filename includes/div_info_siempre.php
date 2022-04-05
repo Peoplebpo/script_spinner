@@ -1,4 +1,5 @@
 <div class="col-12" id="i_siempre" style="display:none;">
+<p class="fs-4 fw-bold">INFORMAR SIEMPRE</p>
 
     <h5 class="texto fw-bold my-3">CHECK LIST</h5>
 

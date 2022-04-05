@@ -1,11 +1,7 @@
-		<div class="row">
-
-            <p class="fs-4 fw-bold">INICIO</p>
-
-        </div>
 
 
 		<div class="col-12 my-2" id="inicial">
+			<p class="fs-4 fw-bold">INICIO</p>
 
 			<label class="my-2"><ul><li> Buenos (días, tardes), Don/ña [nombre cliente], habla con [nombre agente], ejecutivo del área de beneficios de CLARO CHILE.</li></label>
 
