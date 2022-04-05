@@ -81,6 +81,9 @@ function c_llamada() {
             div = document.getElementById('cierre_venta3');
             div.style.display = 'none';
 
+            div = document.getElementById('cierre_venta4');
+            div.style.display = 'none';
+
             div = document.getElementById('i_siempre');
             div.style.display = 'none';
 

@@ -1,6 +1,6 @@
 <div class="col-12" id="i_relevante" style="display:none;">
 
-    <h5 class="my-3 texto fw-bold">INFORMACIÓN RELEVANTE</h5>
+    <p class="fs-4 fw-bold">INFORMACIÓN RELEVANTE</p>
 
     <div class="form-check">
     
@@ -19,7 +19,7 @@
 
     <div class="form-check">
     
-    <label class="form-check-label" for="flexCheckDefault"><input class="form-check-input checkbox" type="checkbox" value="" id="flexCheckDefault">SI USTED CUENTA CON UNA BOLSA DE MINUTOS O NÚMEROS UNIDOS ESTOS SE PERDERÁN.</label>
+    <label class="form-check-label fw-bold" for="flexCheckDefault"><input class="form-check-input checkbox" type="checkbox" value="" id="flexCheckDefault">Si usted cuenta con una bolsa de minutos o números unidos estos se perderán.</label>
     </div>
 
     <div class="form-check">
@@ -36,17 +36,17 @@
 
     <div class="form-check">
     
-    <label class="form-check-label" for="flexCheckDefault"><input class="form-check-input checkbox" type="checkbox" value="" id="flexCheckDefault">INFORMAR QUE PARA EL CAMBIO DE EQUIPO USTED DEBERA DIRIGIRSE A CUALQUIERA DE NUESTRAS SUCURSALES A LOS LARGO DEL PAIS CON SU CEDULA DE IDENTIDAD VIGENTE , EN CASO DE QUE ASISTA UN TERCERO, ESTE DEBE PRESENTAR PODER SIMPLE (EL CUAL REMITIRE AL CORREO QUE USTED ME INDIQUE) + COPIA DE CEDULA DE IDENTIDAD DEL TITULAR, LA CUAL DEBE INCLUIR FIRMA DEL TITULAR.</label>
+    <label class="form-check-label fw-bold" for="flexCheckDefault"><input class="form-check-input checkbox" type="checkbox" value="" id="flexCheckDefault">Informar que para el cambio de equipo usted deberá dirigirse a cualquiera de nuestras sucursales a los largo del país con su cedula de identidad vigente, en caso de que asista un tercero, este debe presentar poder simple (el cual remitiré al correo que usted me indique) + copia de cedula de identidad del titular, la cual debe incluir firma del titular.</label>
     </div>
 
     <div class="form-check">
     
-    <label class="form-check-label" for="flexCheckDefault"><input class="form-check-input checkbox" type="checkbox" value="" id="flexCheckDefault">IMPORTANTE INFORMAR QUE, SI USTED CUANTA CON UN DESCUENTO, NO LO PERDERÁ AL GESTIONAR EL CAMBIO DE EQUIPO, LOS DESCUENTOS SOLO SE PIERDEN CUANDO EL CLIENTE MODIFICA EL PLAN O ACEPTA UN NUEVO DESCUENTO.</label>
+    <label class="form-check-label fw-bold" for="flexCheckDefault"><input class="form-check-input checkbox" type="checkbox" value="" id="flexCheckDefault">Importante informar que, si usted cuanta con un descuento, no lo perderá al gestionar el cambio de equipo, los descuentos solo se pierden cuando el cliente modifica el plan o acepta un nuevo descuento.</label>
     </div>
 
     <div class="form-check">
     
-    <label class="form-check-label" for="flexCheckDefault"><input class="form-check-input checkbox" type="checkbox" value="" id="flexCheckDefault">Es importante que sepa que USTED DECIDE LA PERMANENCIA y PUEDE CAMBIAR EL PLAN POR UNO VIGENTE O SOLICITAR LA FINALIZACIÓN DEL SERVICIO EN CUALQUIER MOMENTO BONO CEP NO ES COMPATIBLE CON : EQUIPOS CLARO UP( ALTA GAMA), IPHONE, EQUIPOS COMPRADOS AL CONTADO.</label>
+    <label class="form-check-label fw-bold" for="flexCheckDefault"><input class="form-check-input checkbox" type="checkbox" value="" id="flexCheckDefault">Es importante que sepa que usted decide la permanencia y puede cambiar el plan por uno vigente o solicitar la finalización del servicio en cualquier momento bono cep no es compatible con: equipos claro up (alta gama), iphone, equipos comprados al contado.</label>
     </div>
 
     <button type="button" class="btn_script btn btn-primary btn-xs text-white mt-5" style="float:right;" onclick="cierre_venta();">Cierre Venta</button>
