@@ -6,15 +6,15 @@
 <div class="col-2" id="venta" style="display:none;">
 
     <div class="form-check">
-    <input class="form-check-input boton" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-    <label class="form-check-label fw-bold" for="flexRadioDefault1"> Solo Descuento
+    
+    <label class="form-check-label fw-bold" for="flexRadioDefault1"><input class="form-check-input boton" type="radio" name="flexRadioDefault" id="flexRadioDefault1"> Solo Descuento
 	</label>
     </div>
 </div>
 <div class="col-10" id="venta7" style="display:none;">
 	<div class="form-check">
-    <input class="form-check-input boton" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-    <label class="form-check-label fw-bold" for="flexRadioDefault1"> Herramienta Combinada
+    
+    <label class="form-check-label fw-bold" for="flexRadioDefault1"><input class="form-check-input boton" type="radio" name="flexRadioDefault" id="flexRadioDefault1"> Herramienta Combinada
 	</label>
     </div>
 </div>
@@ -33,29 +33,31 @@
 		</select>
 
 		<div class="form-check my-3">
-        <input class="form-check-input checkbox" type="checkbox" value="" id="flexCheckDefault">
-        <label class="form-check-label" for="flexCheckDefault">
-    	Señor / Señora [Nombre Apellido Del Titular], porque usted nos interesa y queremos que nos siga prefiriendo, le entregaremos un descuento a su plan actual de XX% por XX meses, asociado a este número de teléfono y se verá reflejado en la boleta del mes sub-siguiente.
-		</label>
+            <label class="form-check-label" for="flexCheckDefault">
+                <input class="form-check-input checkbox" type="checkbox" value="" id="flexCheckDefault">Señor / Señora [Nombre Apellido Del Titular], porque usted nos interesa y queremos que nos siga prefiriendo, le entregaremos un descuento a su plan actual de XX% por XX meses, asociado a este número de teléfono y se verá reflejado en la boleta del mes sub-siguiente.
+		    </label>
         </div>
 
     	<div class="form-check my-2">
-        <input class="form-check-input checkbox" type="checkbox" value="" id="flexCheckDefault">
+        
         <label class="form-check-label" for="flexCheckDefault">
+            <input class="form-check-input checkbox" type="checkbox" value="" id="flexCheckDefault">
     	Al procesar este Cambio de plan + descuento o solo descuento aceptado el día de hoy se eliminan todos las promociones y descuentos anteriores.
     	</label>
         </div>
 
 		<div class="form-check my-2">
-        <input class="form-check-input checkbox" type="checkbox" value="" id="flexCheckDefault">
+        
         <label class="form-check-label" for="flexCheckDefault">
+            <input class="form-check-input checkbox" type="checkbox" value="" id="flexCheckDefault">
     	El descuento quedará aplicado al PCS [Número telefónico del Cliente].
     	</label>
         </div>
 
     	<div class="form-check my-2">
-        <input class="form-check-input checkbox" type="checkbox" value="" id="flexCheckDefault">
+        
         <label class="form-check-label" for="flexCheckDefault">
+            <input class="form-check-input checkbox" type="checkbox" value="" id="flexCheckDefault">
     	Le recuerdo que para que se curse el cambio de plan, no debe presentar deudas en CLARO CHILE. 
     	</label>
         </div>
