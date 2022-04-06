@@ -12,7 +12,7 @@
 
 		<div class="col-6" id="inicial1">
 			<label class="fw-bold">Tipo Cliente</label>
-			<select name="tipo_cliente" class="form-select my-2">
+			<select name="tipo_cliente" id="tipo_cliente" class="form-select my-2">
 				<option value="">--Seleccione una Opcion--</option>
 				<option value="titular">Titular</option>
 				<option value="usuario">Usuario</option>
@@ -48,6 +48,6 @@
 
 		<div class="col-12 mt-4 p-0" id="inicial4">
 
-		<button type="button" class="btn_script btn btn-primary btn-xs text-white" style="float:right;" onclick="venta()">Venta</button> 
+		<button type="button" class="btn_script btn btn-primary btn-xs text-white" style="float:right;" onclick="venta()" id="btn_venta">Venta</button> 
 
 		</div>

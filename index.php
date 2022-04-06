@@ -15,6 +15,7 @@
 		integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous">
 	</script>
 	<script type="lib/popper.min.js"></script>
+	<script src="js/interaccion.js"></script>
 	<script src="js/tipificacion.js"></script>
 	<script src="js/agregar.js"></script>
 	<script src="js/divs.js"></script>
