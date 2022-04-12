@@ -26,6 +26,8 @@
 	<script src="includes/glosa/js/glosa.js"></script>
 	<script src="includes/glosa/js/descuento.js"></script>
 
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
 
 </head>
 

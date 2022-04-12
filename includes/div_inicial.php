@@ -48,6 +48,6 @@
 
 		<div class="col-12 mt-4 p-0" id="inicial4">
 
-		<button type="button" class="btn_script btn btn-primary btn-xs text-white" style="float:right;" onclick="venta()" id="btn_venta">Venta</button> 
+		<button type="button" class="btn_script btn btn-primary btn-xs text-white" style="float:right;" onclick="venta()" id="btn_venta1">Venta</button> 
 
 		</div>
