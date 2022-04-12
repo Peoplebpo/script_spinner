@@ -177,7 +177,7 @@
     <div class="col-3 mt-5" id="venta4" style="display:none;">
     	
     	<label class="fw-bold">Bolsa Aceptada</label>
-		<select name="bolsa_aceptada" id="bolsa_aceptadabo" class="form-select my-2">
+		<select name="bolsa_aceptada" id="bolsa_aceptada" class="form-select my-2">
 			<option selected>Lista de Bolsas</option>
             <option value="Bolsa 100 GB">Bolsa 100 GB</option>
             <option value="Bolsa 200 GB">Bolsa 200 GB</option>

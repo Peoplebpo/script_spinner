@@ -24,9 +24,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
 	$('#btn_info_siempre1').attr("disabled", true);
-	$('#btn_linea_add').attr("disabled", true);
-	$('#btn_g_grosa').attr("disabled", true);
-	$('#btn_inicio1').attr("disabled", true);
+
 
 	$('#plan_aceptado').prop("disabled", true);
 	$('#fecha_retiro').prop("disabled", true);
@@ -36,28 +34,85 @@ $(document).ready(function () {
 	$('#num_interaccion').prop("disabled", true);
 	$('#bolsa_aceptada').prop("disabled", true);
 
+	var ch1 = 0;
+	var ch2 = 0;
+	var ch3 = 0;
+	var ch4 = 0;
 
-	var miCheck1 = document.getElementById('check1');
-	var miCheck2 = document.getElementById('check2');
-	var miCheck3 = document.getElementById('check3');
-	var miCheck4 = document.getElementById('check4');
-
-
-  	miCheck4.addEventListener('click', function() {
-
-    if(miCheck1.checked && miCheck2.checked && miCheck3.checked && miCheck4.checked) {
-      	$('#btn_info_siempre1').attr("disabled", false);
-		$('#btn_linea_add').attr("disabled", false);
-		$('#btn_g_grosa').attr("disabled", false);
-		$('#btn_inicio1').attr("disabled", false);
-
+	$("#check1").click(function(){
+	if($('#check1').prop('checked')){
+		ch1 = 1;
+		var suma_ch = ch1+ch2+ch3+ch4;
+		console.log(suma_ch);
     } else {
-
-      	$('#btn_info_siempre1').attr("disabled", true);
-		$('#btn_linea_add').attr("disabled", true);
-		$('#btn_g_grosa').attr("disabled", true);
-		$('#btn_inicio1').attr("disabled", true);
+    	ch1 = 0; 
+      	var suma_ch = ch1+ch2+ch3+ch4;
+      	console.log(suma_ch);     	
     }
-  });
+
+    if(ch1+ch2+ch3+ch4 === 4){
+	$('#btn_info_siempre1').attr("disabled", false);
+	}else{
+	$('#btn_info_siempre1').attr("disabled", true);
+	}
+
+	});
+
+	$("#check2").click(function(){
+	if($('#check2').prop('checked')){
+		ch2 = 1;
+		var suma_ch = ch1+ch2+ch3+ch4;
+		console.log(suma_ch);
+    } else {
+      	ch2 = 0; 
+      	var suma_ch = ch1+ch2+ch3+ch4;
+      	console.log(suma_ch);
+    }
+
+    if(ch1+ch2+ch3+ch4 === 4){
+	$('#btn_info_siempre1').attr("disabled", false);
+	}else{
+	$('#btn_info_siempre1').attr("disabled", true);
+	}
+
+	});
+
+	$("#check3").click(function(){
+	if($('#check3').prop('checked')){
+		ch3 = 1;
+		var suma_ch = ch1+ch2+ch3+ch4;
+		console.log(suma_ch);
+    } else {
+      	ch3 = 0; 
+      	var suma_ch = ch1+ch2+ch3+ch4;
+      	console.log(suma_ch);
+    }
+
+    if(ch1+ch2+ch3+ch4 === 4){
+	$('#btn_info_siempre1').attr("disabled", false);
+	}else{
+	$('#btn_info_siempre1').attr("disabled", true);
+	}
+
+	});
+
+	$("#check4").click(function(){
+	if($('#check4').prop('checked')){
+		ch4 = 1;
+		var suma_ch = ch1+ch2+ch3+ch4;
+		console.log(suma_ch);
+    } else {
+      	ch4 = 0; 
+      	var suma_ch = ch1+ch2+ch3+ch4;
+      	console.log(suma_ch);
+    }
+	
+	if(ch1+ch2+ch3+ch4 === 4){
+	$('#btn_info_siempre1').attr("disabled", false);
+	}else{
+	$('#btn_info_siempre1').attr("disabled", true);
+	}
+	
+	});
 
 });
