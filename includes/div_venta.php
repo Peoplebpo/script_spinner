@@ -14,23 +14,14 @@
 <div class="col-10" id="venta7" style="display:none;">
 	<div class="form-check">
     
-    <label class="form-check-label fw-bold" for="flexRadioDefault1"><input class="form-check-input boton radio1" type="radio" name="flexRadioDefault" id="radio_button"> Herramienta Combinada
+    <label class="form-check-label fw-bold" for="flexRadioDefault1"><input class="form-check-input boton radio" type="radio" name="flexRadioDefault" id="radio_button1"> Herramienta Combinada
 	</label>
     </div>
 </div>
 
 <div class="col-12" id="venta8" style="display:none;">
-    <label class="my-3 texto fw-bold">SPINNER: </label>
-	<label class="my-3"> SOLO EN EL CASO QUE EL CLIENTE NO ACEPTE EL CAMBIO DE PLAN O PARA USUARIOS.</label>
-
-	</br>
-
-	<label class="fw-bold">Descuento</label>
-		<select name="descuento" id="descuento" class="form-select my-2">
-			<option></option>
-            <option value="Si">Si</option>
-            <option value="No">No</option>
-		</select>
+        <label class="my-3 texto fw-bold">SPINNER: </label>
+	   <label class="my-3"> SOLO EN EL CASO QUE EL CLIENTE NO ACEPTE EL CAMBIO DE PLAN O PARA USUARIOS.</label>
 
 		<div class="form-check my-3">
             <label class="form-check-label" for="flexCheckDefault">
@@ -89,13 +80,14 @@
     	
     	<label class="fw-bold">Descuento Aceptado</label>
 		<select name="descuento_aceptado" id="descuento_aceptado" class="form-select my-2">
-			<option selected>Lista de Descuentos</option>
+			<option selected value="">Lista de Descuentos</option>
             <option value="40% X 6 MESES">30% X 6 MESES</option>
             <option value="50% X 6 MESES">50% X 6 MESES</option>
             <option value="20% X 12 MESES">20% X 12 MESES</option>
             <option value="30% X 12 MESES">30% X 12 MESES</option>
             <option value="40% X 12 MESES">40% X 12 MESES</option>
             <option value="50% X 12 MESES">50% X 12 MESES</option>
+            <option value=">No Aplica">No Aplica</option>
 		</select> 
 
 		<label class="fw-bold">Sucursales</label>
