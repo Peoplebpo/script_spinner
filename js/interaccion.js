@@ -20,12 +20,14 @@ $(document).ready(function () {
 
 });
 
-//FIN INICIA
+//FIN DIV INICIAL
+
+//INICIO DIV VENTA
 
 $(document).ready(function () {
 	$('#btn_info_siempre1').attr("disabled", true);
 
-
+	$('#descuento').prop("disabled", true);
 	$('#plan_aceptado').prop("disabled", true);
 	$('#fecha_retiro').prop("disabled", true);
 	$('#descuento_aceptado').prop("disabled", true);
@@ -33,6 +35,41 @@ $(document).ready(function () {
 	$('#equipo_aceptado').prop("disabled", true);
 	$('#num_interaccion').prop("disabled", true);
 	$('#bolsa_aceptada').prop("disabled", true);
+
+	$("#radio_button").click(function(){
+		if($('.radio').prop('checked')){
+
+		$('#descuento').prop("disabled", false);
+		$('#descuento_aceptado').prop("disabled", false);
+		$('#plan_aceptado').prop("disabled", true);
+		$('#fecha_retiro').prop("disabled", true);	
+		$('#sucursal').prop("disabled", true);
+		$('#equipo_aceptado').prop("disabled", true);
+		$('#num_interaccion').prop("disabled", true);
+		$('#bolsa_aceptada').prop("disabled", true);
+
+		}else if($('.radio1').prop('checked')){
+
+		$('#descuento').prop("disabled", false);
+		$('#plan_aceptado').prop("disabled", false);
+		$('#fecha_retiro').prop("disabled", false);
+		$('#descuento_aceptado').prop("disabled", false);
+		$('#sucursal').prop("disabled", false);
+		$('#equipo_aceptado').prop("disabled", false);
+		$('#num_interaccion').prop("disabled", false);
+		$('#bolsa_aceptada').prop("disabled", false);		
+		}else{
+			$('#descuento').prop("disabled", true);
+			$('#plan_aceptado').prop("disabled", true);
+			$('#fecha_retiro').prop("disabled", true);
+			$('#descuento_aceptado').prop("disabled", true);
+			$('#sucursal').prop("disabled", true);
+			$('#equipo_aceptado').prop("disabled", true);
+			$('#num_interaccion').prop("disabled", true);
+			$('#bolsa_aceptada').prop("disabled", true);
+		}
+	});
+
 
 	var ch1 = 0;
 	var ch2 = 0;
@@ -116,3 +153,5 @@ $(document).ready(function () {
 	});
 
 });
+
+//FIN DIV VENTA
