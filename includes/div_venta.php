@@ -32,6 +32,8 @@
             <option value="No">No</option>
 		</select>
 
+<div class="group-check">
+
 		<div class="form-check my-3">
             <label class="form-check-label" for="flexCheckDefault">
                 <input class="form-check-input checkbox" type="checkbox" value="" id="check1">Señor / Señora [Nombre Apellido Del Titular], porque usted nos interesa y queremos que nos siga prefiriendo, le entregaremos un descuento a su plan actual de XX% por XX meses, asociado a este número de teléfono y se verá reflejado en la boleta del mes sub-siguiente.
@@ -62,7 +64,9 @@
     	</label>
         </div>
 
-    </div>
+</div>
+
+
 
     <div class="col-3 mt-5" id="venta1" style="display:none;">
 

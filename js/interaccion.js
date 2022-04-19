@@ -37,27 +37,28 @@ $(document).ready(function () {
 	$('#bolsa_aceptada').prop("disabled", true);
 
 
-	var miCheck1 = document.getElementById('check1');
-	var miCheck2 = document.getElementById('check2');
-	var miCheck3 = document.getElementById('check3');
-	var miCheck4 = document.getElementById('check4');
 
+	group-check.addEventListener('click', function() {
 
-  	miCheck4.addEventListener('click', function() {
+		var cuenta_check = document.querySelectorAll(".group-check input[type=checkbox]:checked").length;
 
-    if(miCheck1.checked && miCheck2.checked && miCheck3.checked && miCheck4.checked) {
-      	$('#btn_info_siempre1').attr("disabled", false);
-		$('#btn_linea_add').attr("disabled", false);
-		$('#btn_g_grosa').attr("disabled", false);
-		$('#btn_inicio1').attr("disabled", false);
+		console.log(cuenta_check);
 
-    } else {
+		if(miCheck1.checked && miCheck2.checked && miCheck3.checked && miCheck4.checked) {
 
-      	$('#btn_info_siempre1').attr("disabled", true);
-		$('#btn_linea_add').attr("disabled", true);
-		$('#btn_g_grosa').attr("disabled", true);
-		$('#btn_inicio1').attr("disabled", true);
-    }
-  });
+			$('#btn_info_siempre1').attr("disabled", false);
+			$('#btn_linea_add').attr("disabled", false);
+			$('#btn_g_grosa').attr("disabled", false);
+			$('#btn_inicio1').attr("disabled", false);
+
+		}else{
+
+			$('#btn_info_siempre1').attr("disabled", true);
+			$('#btn_linea_add').attr("disabled", true);
+			$('#btn_g_grosa').attr("disabled", true);
+			$('#btn_inicio1').attr("disabled", true);
+		}
+
+	});
 
 });
