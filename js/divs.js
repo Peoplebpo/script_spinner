@@ -15,6 +15,12 @@ function c_llamada() {
             div = document.getElementById('c_llamada4');
             div.style.display = '';
 
+            div = document.getElementById('c_llamada5');
+            div.style.display = '';
+
+            div = document.getElementById('marco');
+            div.style.display = 'none';
+
             div = document.getElementById('inicial');
             div.style.display = 'none';
 
@@ -51,6 +57,18 @@ function c_llamada() {
             div = document.getElementById('venta5');
             div.style.display = 'none';
 
+            div = document.getElementById('venta6');
+            div.style.display = 'none';
+
+            div = document.getElementById('venta7');
+            div.style.display = 'none';
+
+            div = document.getElementById('venta8');
+            div.style.display = 'none';
+
+            div = document.getElementById('venta9');
+            div.style.display = 'none';
+
             div = document.getElementById('cierre_venta');
             div.style.display = 'none';
 
@@ -63,10 +81,16 @@ function c_llamada() {
             div = document.getElementById('cierre_venta3');
             div.style.display = 'none';
 
+            div = document.getElementById('cierre_venta4');
+            div.style.display = 'none';
+
             div = document.getElementById('i_siempre');
             div.style.display = 'none';
 
             div = document.getElementById('i_relevante');
+            div.style.display = 'none';
+
+            div = document.getElementById('g_glosa');
             div.style.display = 'none';
 
         }
@@ -88,6 +112,9 @@ function inicio() {
             div = document.getElementById('c_llamada4');
             div.style.display = 'none';
 
+            div = document.getElementById('c_llamada5');
+            div.style.display = 'none';
+
             div = document.getElementById('venta');
             div.style.display = 'none';
 
@@ -105,6 +132,21 @@ function inicio() {
 
             div = document.getElementById('venta5');
             div.style.display = 'none';
+
+            div = document.getElementById('venta6');
+            div.style.display = 'none';
+
+            div = document.getElementById('venta7');
+            div.style.display = 'none';
+
+            div = document.getElementById('venta8');
+            div.style.display = 'none';
+
+            div = document.getElementById('venta9');
+            div.style.display = 'none';
+
+            div = document.getElementById('marco');
+            div.style.display = '';
 
             div = document.getElementById('inicial');
             div.style.display = '';
@@ -142,6 +184,21 @@ function venta() {
             div = document.getElementById('venta5');
             div.style.display = '';
 
+            div = document.getElementById('venta6');
+            div.style.display = '';
+
+            div = document.getElementById('venta7');
+            div.style.display = '';
+
+            div = document.getElementById('venta8');
+            div.style.display = '';
+
+            div = document.getElementById('venta9');
+            div.style.display = '';
+            
+            div = document.getElementById('marco');
+            div.style.display = 'none';
+
             div = document.getElementById('inicial');
             div.style.display = 'none';
 
@@ -160,9 +217,54 @@ function venta() {
             div = document.getElementById('l_adicional');
             div.style.display = 'none';
 
+            div = document.getElementById('g_glosa');
+            div.style.display = 'none';
+
+            div = document.getElementById('g_glosa1');
+            div.style.display = 'none';
+
             div = document.getElementById('i_siempre');
             div.style.display = 'none';
         }
+
+        function g_glosa() {
+
+            div = document.getElementById('g_glosa');
+            div.style.display = '';
+
+            div = document.getElementById('g_glosa1');
+            div.style.display = '';
+
+            div = document.getElementById('venta');
+            div.style.display = 'none';
+
+            div = document.getElementById('venta1');
+            div.style.display = 'none';
+
+            div = document.getElementById('venta2');
+            div.style.display = 'none';
+
+            div = document.getElementById('venta3');
+            div.style.display = 'none';
+
+            div = document.getElementById('venta4');
+            div.style.display = 'none';
+
+            div = document.getElementById('venta5');
+            div.style.display = 'none';
+
+            div = document.getElementById('venta6');
+            div.style.display = 'none';
+
+            div = document.getElementById('venta7');
+            div.style.display = 'none';
+
+            div = document.getElementById('venta8');
+            div.style.display = 'none';
+
+        }
+
+
 
 function l_adicional() {
     
@@ -185,6 +287,18 @@ function l_adicional() {
             div.style.display = 'none';
 
             div = document.getElementById('venta5');
+            div.style.display = 'none';
+
+            div = document.getElementById('venta6');
+            div.style.display = 'none';
+
+            div = document.getElementById('venta7');
+            div.style.display = 'none';
+
+            div = document.getElementById('venta8');
+            div.style.display = 'none';
+
+            div = document.getElementById('venta9');
             div.style.display = 'none';
         }
 
@@ -211,6 +325,18 @@ function i_siempre() {
             div = document.getElementById('venta5');
             div.style.display = 'none';
 
+            div = document.getElementById('venta6');
+            div.style.display = 'none';
+
+            div = document.getElementById('venta7');
+            div.style.display = 'none';
+
+            div = document.getElementById('venta8');
+            div.style.display = 'none';
+
+            div = document.getElementById('venta9');
+            div.style.display = 'none';
+
             div = document.getElementById('i_relevante');
             div.style.display = 'none';
         }
@@ -235,6 +361,9 @@ function i_relevante() {
             div = document.getElementById('cierre_venta3');
             div.style.display = 'none';
 
+            div = document.getElementById('cierre_venta4');
+            div.style.display = 'none';
+
         }
 
 function cierre_venta() {
@@ -249,6 +378,9 @@ function cierre_venta() {
             div.style.display = '';
 
             div = document.getElementById('cierre_venta3');
+            div.style.display = '';
+
+            div = document.getElementById('cierre_venta4');
             div.style.display = '';
 
             div = document.getElementById('i_relevante');

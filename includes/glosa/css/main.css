@@ -1,0 +1,19 @@
+.fondo_cuadro{
+background-color: #F9F9F9;
+color: black;
+
+}
+
+.form-control:disabled {
+  background: #C9D115;
+  opacity: 0.9;
+}
+
+.form-select:disabled {
+    background: #C9D115;
+    opacity: 0.9;
+}
+
+label{
+  font-weight: bold;
+}
