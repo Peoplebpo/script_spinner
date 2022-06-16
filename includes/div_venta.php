@@ -19,49 +19,6 @@
     </div>
 </div>
 
-<<<<<<< HEAD
-<div class="col-12" id="venta8" style="display:none;">
-        <label class="my-3 texto fw-bold">SPINNER: </label>
-	   <label class="my-3"> SOLO EN EL CASO QUE EL CLIENTE NO ACEPTE EL CAMBIO DE PLAN O PARA USUARIOS.</label>
-
-<div class="group-check">
-
-		<div class="form-check my-3">
-            <label class="form-check-label" for="flexCheckDefault">
-                <input class="form-check-input checkbox" type="checkbox" value="" id="check1">Señor / Señora [Nombre Apellido Del Titular], porque usted nos interesa y queremos que nos siga prefiriendo, le entregaremos un descuento a su plan actual de XX% por XX meses, asociado a este número de teléfono y se verá reflejado en la boleta del mes sub-siguiente.
-		    </label>
-        </div>
-
-    	<div class="form-check my-2">
-        
-        <label class="form-check-label" for="flexCheckDefault">
-            <input class="form-check-input checkbox" type="checkbox" value="" id="check2">
-    	Al procesar este Cambio de plan + descuento o solo descuento aceptado el día de hoy se eliminan todos las promociones y descuentos anteriores.
-    	</label>
-        </div>
-
-		<div class="form-check my-2">
-        
-        <label class="form-check-label" for="flexCheckDefault">
-            <input class="form-check-input checkbox" type="checkbox" value="" id="check3">
-    	El descuento quedará aplicado al PCS [Número telefónico del Cliente].
-    	</label>
-        </div>
-
-    	<div class="form-check my-2">
-        
-        <label class="form-check-label" for="flexCheckDefault">
-            <input class="form-check-input checkbox" type="checkbox" value="" id="check4">
-    	Le recuerdo que para que se curse el cambio de plan, no debe presentar deudas en CLARO CHILE. 
-    	</label>
-        </div>
-
-</div>
-
-
-
-=======
->>>>>>> 3308ec789146fe2c4be86401ec196400e0f04659
     <div class="col-3 mt-5" id="venta1" style="display:none;">
 
     	<label class="fw-bold">Plan Aceptado</label>

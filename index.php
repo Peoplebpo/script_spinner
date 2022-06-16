@@ -45,10 +45,7 @@
 
 			<div class="col-3">
 
-				<div class="input-group mt-2">
-					<input type="text" class="form-control" placeholder="Ingrese Teléfono" aria-describedby="button-addon2"><button
-						class="btn btn-outline-secondary" type="button" id="button-addon2">Llamar</button>
-				</div>
+
 
 			</div>
 
