@@ -6,7 +6,7 @@
 <div class="col-6" id="cierre_venta" style="display:none;">
 
  	<label class="fw-bold">Seleccione un tipo de venta</label>
-	<select name="" class="form-select my-2">
+	<select name="sel_venta" id="sel_venta" class="form-select my-2">
         <option>--Seleccione una Venta--</option>
 		<option value="Acepta Bolsa">Acepta Bolsa</option>
 		<option value="Acepta CDP">Acepta CDP</option>
@@ -28,7 +28,7 @@
     <div class="col-3" id="cierre_venta1" style="display:none;">
 
     <label class="fw-bold">Email</label>
-	<select name="" class="form-select my-2">
+	<select name="funcion_correo" id="funcion_correo" class="form-select my-2">
 		<option>Eliga una opción</option>
 		<option value="Si">Si</option>
         <option value="No">No</option>
@@ -39,14 +39,14 @@
     <div class="col-3" id="cierre_venta2" style="display:none;">
 
     <label class="fw-bold">Correo Electronico</label>
-    <input type="name" name="" class="form-control my-2">	
+    <input type="name" name="correo" id="correo" class="form-control my-2">	
 
     </div>
 
 
     <div class="col-12 mt-4" id="cierre_venta3" style="display:none;">
 
-    <button type="button" class="btn_script btn btn-success btn-xs text-white" style="float:right;">Finalizar</button>
+    <button type="button" class="btn_script btn btn-success btn-xs text-white" id="btn_ingresar_venta" style="float:right;">Finalizar</button>
 
     <button type="button" class="btn_script btn btn-secondary btn-xs text-white" style="float:right; margin-right: 5px;" onclick="i_relevante();">Informacion Relevante</button>
 

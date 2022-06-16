@@ -13,7 +13,7 @@
 	</select>
 
 	<label class="fw-bold">Telefono Rellamada</label>
-    <input type="name" name="" class="form-control my-2"> 
+    <input type="name" name="num_rellamada" id="num_rellamada" class="form-control my-2"> 
 
     </div>
 
@@ -29,20 +29,20 @@
     <div class="col-3" id="c_llamada2" style="display:none;">
 
     <label class="fw-bold">Fecha Rellamada</label>
-	<input type="date" name="" class="form-control my-2">
+	<input type="date" name="fecha_rellamada" id="fecha_rellamada" class="form-control my-2">
 
     </div>
 
     <div class="col-3" id="c_llamada3" style="display:none;">
 
     <label class="fw-bold">Hora Rellamada</label>
-	<input type="time" name="" class="form-control my-2">
+	<input type="time" name="hora_rellamada" id="hora_rellamada" class="form-control my-2">
 
     </div>
 
     <div class="col-12 mt-3" id="c_llamada4" style="display:none;">
 
-    <button type="button" class="btn_script btn btn-success btn-xs text-white" style="float:right;">Finalizar</button>
+    <button type="button" class="btn_script btn btn-success btn-xs text-white" id="btn_cierre_llamada" style="float:right;">Finalizar</button>
 
     <button type="button" class="btn_script btn btn-secondary btn-xs text-white" style="float:right; margin-right: 5px;" onclick="inicio();">Inicio</button>
 
