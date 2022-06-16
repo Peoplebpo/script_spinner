@@ -75,31 +75,6 @@ $(document).ready(function () {
 		$('#bolsa_aceptada').prop("disabled", true);
 		}
 
-<<<<<<< HEAD
-
-	group-check.addEventListener('click', function() {
-
-		var cuenta_check = document.querySelectorAll(".group-check input[type=checkbox]:checked").length;
-
-		console.log(cuenta_check);
-
-		if(miCheck1.checked && miCheck2.checked && miCheck3.checked && miCheck4.checked) {
-
-			$('#btn_info_siempre1').attr("disabled", false);
-			$('#btn_linea_add').attr("disabled", false);
-			$('#btn_g_grosa').attr("disabled", false);
-			$('#btn_inicio1').attr("disabled", false);
-
-		}else{
-
-			$('#btn_info_siempre1').attr("disabled", true);
-			$('#btn_linea_add').attr("disabled", true);
-			$('#btn_g_grosa').attr("disabled", true);
-			$('#btn_inicio1').attr("disabled", true);
-		}
-
-	});
-=======
 		if ($('#descuento_aceptado').val() == '' ){
 
 		$('#check1').prop("disabled", true);
@@ -146,7 +121,6 @@ $("#check2").click(function(){
       	var suma_ch = ch1+ch2+ch3+ch4;
       	console.log(suma_ch);
     }
->>>>>>> 664d4418e12dc0a9afb21dc2a11aa75f61751ea0
 
     if(suma_ch === 4){
 		$('#btn_info_siempre1').attr("disabled", false);
