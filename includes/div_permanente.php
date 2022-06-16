@@ -2,26 +2,26 @@
 
 	<div class="col">
 		<label class="fw-bold">Nombre Cliente</label>
-		<input type="name" name="nombre_cliente" class="form-control my-2" value="" disabled="disabled">
+		<input type="name" name="nombre_cliente" id="nombre_cliente" class="form-control my-2" value="" disabled="disabled">
 
 	</div>
 
 	<div class="col">
 
 		<label class="fw-bold">Rut Cliente</label>
-		<input type="name" name="nombre_cliente" class="form-control my-2" value="" disabled="disabled">
+		<input type="name" name="rut_cliente" id="rut_cliente" class="form-control my-2" value="" disabled="disabled">
  
 	</div>
 
 	<div class="col">
 		<label class="fw-bold">Teléfono</label>
-		<input type="name" name="nombre_cliente" class="form-control my-2" value="" disabled="disabled">
+		<input type="name" name="telefono_cliente" id="telefono_cliente" class="form-control my-2" value="" disabled="disabled">
 
 	</div>
 
 	<div class="col">
 		<label class="fw-bold">Prioriza Equipo</label>
-		<input type="name" name="nombre_cliente" class="form-control my-2" value="" disabled="disabled">
+		<input type="name" name="prioriza" id="prioriza" class="form-control my-2" value="" disabled="disabled">
 
 	</div>
 

@@ -1,5 +1,11 @@
-input[type="name"]:disabled {
-  background: #A1F517;
+.form-control:disabled {
+  background: #C9D115;
+  opacity: 0.9;
+}
+
+.form-select:disabled {
+    background: #C9D115;
+    opacity: 0.9;
 }
 
 #fondo {

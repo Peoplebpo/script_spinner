@@ -19,47 +19,11 @@
     </div>
 </div>
 
-<div class="col-12" id="venta8" style="display:none;">
-        <label class="my-3 texto fw-bold">SPINNER: </label>
-	   <label class="my-3"> SOLO EN EL CASO QUE EL CLIENTE NO ACEPTE EL CAMBIO DE PLAN O PARA USUARIOS.</label>
-
-		<div class="form-check my-3">
-            <label class="form-check-label" for="flexCheckDefault">
-                <input class="form-check-input checkbox" type="checkbox" value="" id="check1">Señor / Señora [Nombre Apellido Del Titular], porque usted nos interesa y queremos que nos siga prefiriendo, le entregaremos un descuento a su plan actual de XX% por XX meses, asociado a este número de teléfono y se verá reflejado en la boleta del mes sub-siguiente.
-		    </label>
-        </div>
-
-    	<div class="form-check my-2">
-        
-        <label class="form-check-label" for="flexCheckDefault">
-            <input class="form-check-input checkbox" type="checkbox" value="" id="check2">
-    	Al procesar este Cambio de plan + descuento o solo descuento aceptado el día de hoy se eliminan todos las promociones y descuentos anteriores.
-    	</label>
-        </div>
-
-		<div class="form-check my-2">
-        
-        <label class="form-check-label" for="flexCheckDefault">
-            <input class="form-check-input checkbox" type="checkbox" value="" id="check3">
-    	El descuento quedará aplicado al PCS [Número telefónico del Cliente].
-    	</label>
-        </div>
-
-    	<div class="form-check my-2">
-        
-        <label class="form-check-label" for="flexCheckDefault">
-            <input class="form-check-input checkbox" type="checkbox" value="" id="check4">
-    	Le recuerdo que para que se curse el cambio de plan, no debe presentar deudas en CLARO CHILE. 
-    	</label>
-        </div>
-
-    </div>
-
     <div class="col-3 mt-5" id="venta1" style="display:none;">
 
     	<label class="fw-bold">Plan Aceptado</label>
 		<select name="plan_aceptado" id="plan_aceptado" class="form-select my-2">
-			<option selected>Lista de Planes</option>
+			<option selected value="">Lista de Planes</option>
             <option value="PLAN CUENTA EXACTA XS">PLAN CUENTA EXACTA XS</option>
             <option value="PLAN CUENTA EXACTA S">PLAN CUENTA EXACTA S</option>
             <option value="PLAN POSTPAGO MAX Y">PLAN POSTPAGO MAX Y</option>
@@ -91,8 +55,8 @@
 		</select> 
 
 		<label class="fw-bold">Sucursales</label>
-		<select name="sucursal" class="form-select my-2" id="sucursal">
-			<option selected>Lista de Sucursales</option>
+		<select name="sucursal_des" class="form-select my-2" id="sucursal_des">
+			<option selected value="">Lista de Sucursales</option>
             <option value="Antofagasta SSCC">Antofagasta SSCC</option>
             <option value="Calama SSCC">Calama SSCC</option>
             <option value="Copiapó SSCC">Copiapó SSCC</option>
@@ -170,7 +134,7 @@
     	
     	<label class="fw-bold">Bolsa Aceptada</label>
 		<select name="bolsa_aceptada" id="bolsa_aceptada" class="form-select my-2">
-			<option selected>Lista de Bolsas</option>
+			<option selected value="">Lista de Bolsas</option>
             <option value="Bolsa 100 GB">Bolsa 100 GB</option>
             <option value="Bolsa 200 GB">Bolsa 200 GB</option>
 		</select> 
@@ -180,6 +144,42 @@
         <label class="fw-bold">Comentarios</label>
         <br>
         <textarea class="form-control" style="resize: none;" cols="224" rows="3" id="comentarios"></textarea>
+    </div>
+
+    <div class="col-12" id="venta8" style="display:none;">
+        <label class="my-3 texto fw-bold">SPINNER: </label>
+       <label class="my-3"> SOLO EN EL CASO QUE EL CLIENTE NO ACEPTE EL CAMBIO DE PLAN O PARA USUARIOS.</label>
+
+        <div class="form-check my-3">
+            <label class="form-check-label" for="flexCheckDefault">
+                <input class="form-check-input checkbox" type="checkbox" value="" id="check1">Señor / Señora [Nombre Apellido Del Titular], porque usted nos interesa y queremos que nos siga prefiriendo, le entregaremos un descuento a su plan actual de XX% por XX meses, asociado a este número de teléfono y se verá reflejado en la boleta del mes sub-siguiente.
+            </label>
+        </div>
+
+        <div class="form-check my-2">
+        
+        <label class="form-check-label" for="flexCheckDefault">
+            <input class="form-check-input checkbox" type="checkbox" value="" id="check2">
+        Al procesar este Cambio de plan + descuento o solo descuento aceptado el día de hoy se eliminan todos las promociones y descuentos anteriores.
+        </label>
+        </div>
+
+        <div class="form-check my-2">
+        
+        <label class="form-check-label" for="flexCheckDefault">
+            <input class="form-check-input checkbox" type="checkbox" value="" id="check3">
+        El descuento quedará aplicado al PCS [Número telefónico del Cliente].
+        </label>
+        </div>
+
+        <div class="form-check my-2">
+        
+        <label class="form-check-label" for="flexCheckDefault">
+            <input class="form-check-input checkbox" type="checkbox" value="" id="check4">
+        Le recuerdo que para que se curse el cambio de plan, no debe presentar deudas en CLARO CHILE. 
+        </label>
+        </div>
+
     </div>
 
 

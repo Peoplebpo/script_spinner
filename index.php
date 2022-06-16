@@ -19,6 +19,7 @@
 	<script src="js/tipificacion.js"></script>
 	<script src="js/agregar.js"></script>
 	<script src="js/divs.js"></script>
+	<script src="js/procesa.js"></script>
 
 	<!-- SCRIPT GENERADOR DE GLOSA-->
 	<script src="lib/clipboard.min.js"></script>

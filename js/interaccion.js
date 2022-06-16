@@ -30,14 +30,14 @@ $(document).ready(function () {
 	$('#plan_aceptado').prop("disabled", true);
 	$('#fecha_retiro').prop("disabled", true);
 	$('#descuento_aceptado').prop("disabled", true);
-	$('#sucursal').prop("disabled", true);
+	$('#sucursal_des').prop("disabled", true);
 	$('#equipo_aceptado').prop("disabled", true);
 	$('#num_interaccion').prop("disabled", true);
 	$('#bolsa_aceptada').prop("disabled", true);
-			$('#check1').prop("disabled", true);
-		$('#check2').prop("disabled", true);
-		$('#check3').prop("disabled", true);
-		$('#check4').prop("disabled", true);
+	$('#check1').prop("disabled", true);
+	$('#check2').prop("disabled", true);
+	$('#check3').prop("disabled", true);
+	$('#check4').prop("disabled", true);
 
 	var ch1 = 0;
 	var ch2 = 0;
@@ -50,32 +50,17 @@ $(document).ready(function () {
 		$('#descuento_aceptado').prop("disabled", false);
 		$('#plan_aceptado').prop("disabled", true);
 		$('#fecha_retiro').prop("disabled", true);	
-		$('#sucursal').prop("disabled", true);
+		$('#sucursal_des').prop("disabled", true);
 		$('#equipo_aceptado').prop("disabled", true);
 		$('#num_interaccion').prop("disabled", true);
 		$('#bolsa_aceptada').prop("disabled", true);
+		$('#check1').prop("disabled", true);
+		$('#check2').prop("disabled", true);
+		$('#check3').prop("disabled", true);
+		$('#check4').prop("disabled", true);
 
-		}else if($('#radio_button1').prop('checked')){
-
-		$('#plan_aceptado').prop("disabled", false);
-		$('#fecha_retiro').prop("disabled", false);
-		$('#descuento_aceptado').prop("disabled", false);
-		$('#sucursal').prop("disabled", false);
-		$('#equipo_aceptado').prop("disabled", false);
-		$('#num_interaccion').prop("disabled", false);
-		$('#bolsa_aceptada').prop("disabled", false);		
-		}else{
-
-		$('#plan_aceptado').prop("disabled", true);
-		$('#fecha_retiro').prop("disabled", true);
-		$('#descuento_aceptado').prop("disabled", true);
-		$('#sucursal').prop("disabled", true);
-		$('#equipo_aceptado').prop("disabled", true);
-		$('#num_interaccion').prop("disabled", true);
-		$('#bolsa_aceptada').prop("disabled", true);
-		}
-
-		if ($('#descuento_aceptado').val() == '' ){
+		$("#descuento_aceptado").change(function () {
+		if ($(this).val() == '' ){
 
 		$('#check1').prop("disabled", true);
 		$('#check2').prop("disabled", true);
@@ -89,8 +74,60 @@ $(document).ready(function () {
 		$('#check3').prop("disabled", false);
 		$('#check4').prop("disabled", false);
 		}
+		});
+
+		}else if($('#radio_button1').prop('checked')){
+
+		$('#plan_aceptado').prop("disabled", false);
+		$('#fecha_retiro').prop("disabled", false);
+		$('#descuento_aceptado').prop("disabled", false);
+		$('#sucursal_des').prop("disabled", false);
+		$('#equipo_aceptado').prop("disabled", false);
+		$('#num_interaccion').prop("disabled", false);
+		$('#bolsa_aceptada').prop("disabled", false);
+		$('#check1').prop("disabled", true);
+		$('#check2').prop("disabled", true);
+		$('#check3').prop("disabled", true);
+		$('#check4').prop("disabled", true);
+
+		$("#plan_aceptado, #descuento_aceptado, #bolsa_aceptada, #sucursal_des").change(function(){
+		if (concatenated_string = $('#plan_aceptado').val() == '' ||
+		 $('#descuento_aceptado').val() == '' ||
+		 $('#bolsa_aceptada').val() == '' ||
+		 $('#sucursal_des').val() == ''){
+
+		$('#check1').prop("disabled", true);
+		$('#check2').prop("disabled", true);
+		$('#check3').prop("disabled", true);
+		$('#check4').prop("disabled", true);
+
+		}else{
+
+		$('#check1').prop("disabled", false);
+		$('#check2').prop("disabled", false);
+		$('#check3').prop("disabled", false);
+		$('#check4').prop("disabled", false);
+		}
+
+		});
+
+		}else{
+
+		$('#plan_aceptado').prop("disabled", true);
+		$('#fecha_retiro').prop("disabled", true);
+		$('#descuento_aceptado').prop("disabled", true);
+		$('#sucursal_des').prop("disabled", true);
+		$('#equipo_aceptado').prop("disabled", true);
+		$('#num_interaccion').prop("disabled", true);
+		$('#bolsa_aceptada').prop("disabled", true);
+		$('#check1').prop("disabled", true);
+		$('#check2').prop("disabled", true);
+		$('#check3').prop("disabled", true);
+		$('#check4').prop("disabled", true);
+		}
 	});
 
+		
 
 $("#check1").click(function(){
 	if($('#check1').prop('checked')){
@@ -552,3 +589,32 @@ $("#check_rel9").click(function(){
 
 
 //fin div informaciones
+
+//inicio div cierre venta
+
+$(document).ready(function () {
+
+$("#correo").prop("disabled", true);
+
+$("#funcion_correo").change(function () {
+
+    if ($(this).val() === "Si") {
+
+    	$("#correo").prop("disabled", false);
+
+    }else{
+
+    	$("#correo").prop("disabled", true);
+    }
+
+});
+
+});
+
+
+// fin div cierre venta
+
+// inicio div cierre llamada
+
+
+// fin di cierre llamada
